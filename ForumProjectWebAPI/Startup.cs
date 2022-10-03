@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DAL.Context;
+using DAL.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +35,9 @@ namespace ForumProjectWebAPI
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+            
+            services.AddIdentity<User, UserRole>(options => options.User.RequireUniqueEmail = true)
+                .AddEntityFrameworkStores<ForumProjectContext>();
             
             services.AddControllers();
             services.AddSwaggerGen(c =>
