@@ -5,20 +5,17 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add other interfaces...">
-      <change afterPath="$PROJECT_DIR$/DAL/Configurations/CategoryConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Configurations/MessageConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Configurations/TopicConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Configurations/UserConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Context/ForumProjectContext.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="fix...">
+      <change afterPath="$PROJECT_DIR$/DAL/Repositories/Repository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/User/Desktop/ForumProject/ForumProjectWebAPI/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664778051665</updated>
-      <workItem from="1664778062586" duration="8995000" />
+      <workItem from="1664778062586" duration="11419000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -121,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664783615717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add context and configurations...">
+      <created>1664788116083</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664788116083</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix...">
+      <created>1664788340658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664788340658</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +159,8 @@
     <MESSAGE value="add other entities..." />
     <MESSAGE value="add interface IRepository..." />
     <MESSAGE value="add other interfaces..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add other interfaces..." />
+    <MESSAGE value="add context and configurations..." />
+    <MESSAGE value="fix..." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix..." />
   </component>
 </project>
