@@ -5,12 +5,15 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add interface IRepository...">
-      <change afterPath="$PROJECT_DIR$/DAL/Interfaces/ICategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Interfaces/IMessageRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Interfaces/ITopicRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Interfaces/IUnitOfWork.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add other interfaces...">
+      <change afterPath="$PROJECT_DIR$/DAL/Configurations/CategoryConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/Configurations/MessageConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/Configurations/TopicConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/Configurations/UserConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/Context/ForumProjectContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664778051665</updated>
-      <workItem from="1664778062586" duration="4462000" />
+      <workItem from="1664778062586" duration="8995000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -111,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664781856080</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add other interfaces...">
+      <created>1664783615717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664783615717</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
     <MESSAGE value="add BaseEntity..." />
     <MESSAGE value="add other entities..." />
     <MESSAGE value="add interface IRepository..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add interface IRepository..." />
+    <MESSAGE value="add other interfaces..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add other interfaces..." />
   </component>
 </project>
