@@ -5,8 +5,12 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add Repository...">
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add CategoryRepository...">
+      <change afterPath="$PROJECT_DIR$/DAL/Repositories/MessageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/Repositories/TopicRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Interfaces/IMessageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Interfaces/IMessageRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Interfaces/ITopicRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Interfaces/ITopicRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/User/Desktop/ForumProject/DAL/Entities/Roles/RoleTypes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/User/Desktop/ForumProject/ForumProjectWebAPI/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -80,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664778051665</updated>
-      <workItem from="1664778062586" duration="12299000" />
+      <workItem from="1664778062586" duration="14366000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -138,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664797497930</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add RoleTypes...">
+      <created>1664798445275</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664798445275</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix...">
+      <created>1664798495799</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664798495799</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add CategoryRepository...">
+      <created>1664798631495</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664798631495</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,8 +192,10 @@
     <MESSAGE value="add interface IRepository..." />
     <MESSAGE value="add other interfaces..." />
     <MESSAGE value="add context and configurations..." />
-    <MESSAGE value="fix..." />
     <MESSAGE value="add Repository..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add Repository..." />
+    <MESSAGE value="add RoleTypes..." />
+    <MESSAGE value="fix..." />
+    <MESSAGE value="add CategoryRepository..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add CategoryRepository..." />
   </component>
 </project>

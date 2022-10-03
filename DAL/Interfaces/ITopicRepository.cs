@@ -7,7 +7,7 @@ namespace DAL.Interfaces
 {
     public interface ITopicRepository : IRepository<Topic>
     {
-        IEnumerable<Topic> FindAllWithDetails();
+        Task<IEnumerable<Topic>> GetAllWithDetailsAsync();
 
         Task<Topic> GetByIdWithDetailsAsync(int id);
     }
