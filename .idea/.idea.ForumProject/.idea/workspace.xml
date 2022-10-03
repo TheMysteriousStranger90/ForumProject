@@ -5,28 +5,11 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/BLL.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/DAL.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProject.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/ForumProjectWebAPI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add BaseEntity...">
+      <change afterPath="$PROJECT_DIR$/DAL/Entities/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/Entities/Message.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/Entities/Topic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "vue.rearranger.settings.migration": "true"
@@ -96,8 +80,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664778051665</updated>
-      <workItem from="1664778062586" duration="705000" />
+      <workItem from="1664778062586" duration="1987000" />
     </task>
+    <task id="LOCAL-00001" summary="Init...">
+      <created>1664778882334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664778882334</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add BaseEntity...">
+      <created>1664779028213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664779028213</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +118,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Init..." />
+    <MESSAGE value="add BaseEntity..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add BaseEntity..." />
   </component>
 </project>
