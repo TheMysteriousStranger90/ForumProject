@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DAL;
 using DAL.Context;
 using DAL.Entities;
+using DAL.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -38,6 +40,8 @@ namespace ForumProjectWebAPI
             
             services.AddIdentity<User, UserRole>(options => options.User.RequireUniqueEmail = true)
                 .AddEntityFrameworkStores<ForumProjectContext>();
+            
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             
             services.AddControllers();
             services.AddSwaggerGen(c =>
