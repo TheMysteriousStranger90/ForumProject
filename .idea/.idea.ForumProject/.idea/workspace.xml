@@ -5,18 +5,9 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="fix...">
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/01c29fd4-f716-41ca-8d86-2a0a38cb67d4.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/a2cec69a-5b09-4f8b-82dd-6edfd8376d9d.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/read.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/v17/.futdcache.v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/v17/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/forumproject.metadata.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/forumproject.projects.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Migrations/20221003140351_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Migrations/20221003140351_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/Migrations/ForumProjectContextModelSnapshot.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="...">
+      <change afterPath="$PROJECT_DIR$/DAL/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664778051665</updated>
-      <workItem from="1664778062586" duration="19085000" />
+      <workItem from="1664778062586" duration="20162000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -193,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664805765976</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add Migrations...">
+      <created>1664805924026</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805924026</updated>
+    </task>
+    <task id="LOCAL-00016" summary="...">
+      <created>1664805947225</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805947225</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +232,8 @@
     <MESSAGE value="add other repositories and fix some problems..." />
     <MESSAGE value="add UnitOfWork..." />
     <MESSAGE value="fix..." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix..." />
+    <MESSAGE value="add Migrations..." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
