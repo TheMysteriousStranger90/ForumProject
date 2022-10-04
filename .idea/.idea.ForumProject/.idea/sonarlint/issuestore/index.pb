@@ -31,8 +31,6 @@ S
 #DAL/Repositories/TopicRepository.cs,a\8\a85e485bc65a19de1e92ccd2a47f224d661bca87
 J
 DAL/Entities/BaseEntity.cs,8\6\86dc7ca9cc13a45737b8b6723bb0bb7255762fb3
-H
-DAL/Entities/UserRole.cs,e\a\ea4272751325fde8dbbb0b04df8ef516ad0e8d7b
 D
 DAL/Entities/User.cs,5\a\5a5e094cb4fb5c538afdbdc37bac769c6d03f905
 M
