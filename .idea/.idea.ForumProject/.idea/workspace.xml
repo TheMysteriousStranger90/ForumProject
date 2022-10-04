@@ -5,11 +5,10 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="...">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/e/a/ea4272751325fde8dbbb0b04df8ef516ad0e8d7b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add basic exception...">
+      <change afterPath="$PROJECT_DIR$/BLL/DTO/LoginDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL/DTO/SignupDTO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Class1.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664778051665</updated>
       <workItem from="1664778062586" duration="20546000" />
-      <workItem from="1664854547379" duration="9127000" />
+      <workItem from="1664854547379" duration="11128000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664864316186</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add basic exception...">
+      <created>1664865282043</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664865282043</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +264,7 @@
     <MESSAGE value="add Migrations..." />
     <MESSAGE value="add SeedData and new migration..." />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="add basic exception..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic exception..." />
   </component>
 </project>
