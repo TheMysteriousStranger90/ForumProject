@@ -34,6 +34,18 @@ namespace DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "C# Programming Language"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Python Programming Language"
+                        });
                 });
 
             modelBuilder.Entity("DAL.Entities.Message", b =>
@@ -63,6 +75,24 @@ namespace DAL.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Messages");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreateTime = new DateTime(2022, 10, 7, 8, 58, 8, 434, DateTimeKind.Local).AddTicks(9611),
+                            Text = "The Include() method works quite well for Lists on objects. But what if I need to go two levels deep? Can I do an Include() on that property as well? Or how can I get that property to fully load?",
+                            TopicId = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreateTime = new DateTime(2022, 10, 8, 8, 58, 8, 435, DateTimeKind.Local).AddTicks(1145),
+                            Text = "Make sure to add using System.Data.Entity; to get the version of Include that takes in a lambda.",
+                            TopicId = 1,
+                            UserId = 3
+                        });
                 });
 
             modelBuilder.Entity("DAL.Entities.Topic", b =>
@@ -93,6 +123,16 @@ namespace DAL.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Topics");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 1,
+                            CreateTime = new DateTime(2022, 10, 6, 8, 58, 8, 427, DateTimeKind.Local).AddTicks(4349),
+                            Title = "Entity Framework",
+                            UserId = 2
+                        });
                 });
 
             modelBuilder.Entity("DAL.Entities.User", b =>
@@ -170,6 +210,62 @@ namespace DAL.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "2fa5924f-0868-43df-b5d1-21651181d9f4",
+                            Email = "lev.myshkin@outlook.com",
+                            EmailConfirmed = true,
+                            FirstName = "Lev",
+                            LastName = "Myshkin",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "LEV.MYSHKIN@OUTLOOK.COM",
+                            NormalizedUserName = "LEVMYSHKIN",
+                            PasswordHash = "AQAAAAEAACcQAAAAEO72Nmh33nemlGmkO6/CIeUPj2hpl+INj0JJI3yIgf+GpRMeolFTYWrTjNA/i2TsnA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "db909f93-3179-4b22-8adf-1ad0383abba2",
+                            TwoFactorEnabled = false,
+                            UserName = "LevMyshkin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "105addc2-2d18-4871-9184-f94471d2db5a",
+                            Email = "rodion.raskolnikov@yandex.ru",
+                            EmailConfirmed = true,
+                            FirstName = "Rodion",
+                            LastName = "Raskolnikov",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "RODION.RASKOLNIKOV@YANDEX.RU",
+                            NormalizedUserName = "RODIONRASKOLNIKOV",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOBSQyrqfY+ep4b01FskCa+oCGDo8/7umHtNzFgoB/C24R49ynT1g39Z4pnaT+yR4g==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "46064dc5-17f8-43cc-a9d8-c246a6c80696",
+                            TwoFactorEnabled = false,
+                            UserName = "RodionRaskolnikov"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "46e1592d-0155-4459-af80-2d3a95088c4d",
+                            Email = "george.winterbourne@gmail.com",
+                            EmailConfirmed = true,
+                            FirstName = "George",
+                            LastName = "Winterbourne",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "GEORGE.WINTERBOURNE@GMAIL.COM",
+                            NormalizedUserName = "GEORGEWINTERBOURNE",
+                            PasswordHash = "AQAAAAEAACcQAAAAECOEImzullXGw42Bqnv1KlTEQj1veRm9BzUWykGRgzB5cv5fFxntGmN0DaQHypkrGA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "b7b6d598-3265-4792-bd68-1ded9728a8dc",
+                            TwoFactorEnabled = false,
+                            UserName = "GeorgeWinterbourne"
+                        });
                 });
 
             modelBuilder.Entity("DAL.Entities.UserRole", b =>
@@ -199,6 +295,29 @@ namespace DAL.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ConcurrencyStamp = "3a0bc23b-563d-4e60-8a2d-4d776f828474",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ConcurrencyStamp = "c622a399-138e-4459-bdf7-16feb8f43b51",
+                            Name = "Moderator",
+                            NormalizedName = "MODERATOR"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ConcurrencyStamp = "15c7eec8-2687-48d2-b980-cd10302ea9e2",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -281,6 +400,23 @@ namespace DAL.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            RoleId = 1
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            RoleId = 2
+                        },
+                        new
+                        {
+                            UserId = 3,
+                            RoleId = 3
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<int>", b =>

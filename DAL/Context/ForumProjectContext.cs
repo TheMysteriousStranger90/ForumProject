@@ -7,10 +7,15 @@ namespace DAL.Context
 {
     public class ForumProjectContext : IdentityDbContext<User, UserRole, int>
     {
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Topic> Topics { get; set; }
+        public virtual DbSet<Message> Messages { get; set; }
         public ForumProjectContext(){}
 
         public ForumProjectContext(DbContextOptions<ForumProjectContext> options) : base(options)
         {
+            //Database.EnsureDeleted();
+            //Database.EnsureCreated();
         }
         
         protected override void OnConfiguring(DbContextOptionsBuilder options)
@@ -26,10 +31,8 @@ namespace DAL.Context
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
             modelBuilder.ApplyConfiguration(new TopicConfiguration());
             modelBuilder.ApplyConfiguration(new MessageConfiguration());
+            
+            SeedData.EnsurePopulated(modelBuilder);
         }
-        
-        public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Topic> Topics { get; set; }
-        public virtual DbSet<Message> Messages { get; set; }
     }
 }
