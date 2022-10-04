@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace BLL.DTO
 {
-    public class SignupDTO
+    public class SignUpDTO
     {
         [Required(ErrorMessage = "First Name is required"), NotNull]
         [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Use letters only please")]

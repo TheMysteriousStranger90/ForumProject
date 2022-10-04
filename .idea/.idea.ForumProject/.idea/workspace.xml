@@ -5,10 +5,8 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add other exceptions...">
-      <change afterPath="$PROJECT_DIR$/BLL/DTO/CategoryDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/DTO/TopicDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/DTO/UserRoleDTO.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add other DTOs">
+      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/ICrud.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664778051665</updated>
       <workItem from="1664778062586" duration="20546000" />
-      <workItem from="1664854547379" duration="16072000" />
+      <workItem from="1664854547379" duration="17754000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -249,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664879726677</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add other DTOs">
+      <created>1664885883485</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664885883485</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +295,7 @@
     <MESSAGE value="add LoginDTO and SignupDTO..." />
     <MESSAGE value="add UserDTO..." />
     <MESSAGE value="add other exceptions..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add other exceptions..." />
+    <MESSAGE value="add other DTOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add other DTOs" />
   </component>
 </project>
