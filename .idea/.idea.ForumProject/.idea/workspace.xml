@@ -5,9 +5,9 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add basic exception...">
-      <change afterPath="$PROJECT_DIR$/BLL/DTO/LoginDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/DTO/SignupDTO.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add LoginDTO and SignupDTO...">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/5/a/5a5e094cb4fb5c538afdbdc37bac769c6d03f905" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664778051665</updated>
       <workItem from="1664778062586" duration="20546000" />
-      <workItem from="1664854547379" duration="11128000" />
+      <workItem from="1664854547379" duration="12363000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664865282043</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add LoginDTO and SignupDTO...">
+      <created>1664869077397</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664869077397</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +272,7 @@
     <MESSAGE value="add SeedData and new migration..." />
     <MESSAGE value="..." />
     <MESSAGE value="add basic exception..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic exception..." />
+    <MESSAGE value="add LoginDTO and SignupDTO..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add LoginDTO and SignupDTO..." />
   </component>
 </project>
