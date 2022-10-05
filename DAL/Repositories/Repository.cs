@@ -28,17 +28,17 @@ namespace DAL.Repositories
 
         public async Task CreateAsync(TEntity entity)
         {
-            await _context.AddAsync(entity);
+            await _context.Set<TEntity>().AddAsync(entity);
         }
 
         public void Remove(TEntity entity)
         {
-            _context.Remove(entity);
+            _context.Set<TEntity>().Remove(entity);
         }
 
         public void Update(TEntity entity)
         {
-            _context.Update(entity);
+            _context.Set<TEntity>().Update(entity);
         }
     }
 }
