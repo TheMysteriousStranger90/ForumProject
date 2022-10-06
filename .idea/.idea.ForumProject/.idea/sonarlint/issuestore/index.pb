@@ -7,8 +7,6 @@ U
 %ForumProjectWebAPI/WeatherForecast.cs,d\0\d02bcd10dc84a33370413e6d2bf69754be51e16f
 M
 ForumProjectWebAPI/Program.cs,7\6\7674ec22eff3844443888a5085b0f98dac0bc8c1
->
-BLL/BLL.csproj,e\0\e0f4552e00511decec5f0d8b0bbde386377409da
 S
 #ForumProjectWebAPI/appsettings.json,f\1\f1bf861a4627577cfef00066a2d8b1fed8b1ed8a
 \
@@ -27,14 +25,8 @@ W
 'BLL/Exceptions/ForumProjectException.cs,9\0\902be555eb430d992730ba365f13d6337014de15
 W
 'BLL/Exceptions/AccessDeniedException.cs,7\3\736512c4644f305c24070fce58adb518c92c859b
-B
-BLL/DTO/UserDTO.cs,3\1\31984b3a98d92bb2809649db8951b9281bcb3d42
-C
-BLL/DTO/LoginDTO.cs,8\3\8305f39d8b5c01194c4203b3f6b18bb47a721f4c
 F
 BLL/DTO/UserRoleDTO.cs,3\6\367baca289bb1bf23a455d8c892925ab24db840e
-D
-BLL/DTO/SignUpDTO.cs,2\9\29fbfe5f331f306382f71c26311b4ee45ef5a876
 F
 BLL/DTO/CategoryDTO.cs,c\b\cb2751b85abc929920e5cbdde0f15b929deda110
 C

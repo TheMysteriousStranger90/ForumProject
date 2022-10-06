@@ -5,11 +5,11 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/ICategoryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add interfaces...">
+      <change afterPath="$PROJECT_DIR$/BLL/Mapping/AutomapperProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/BLL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/BLL.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <workItem from="1664778062586" duration="20546000" />
       <workItem from="1664854547379" duration="19194000" />
       <workItem from="1664948310425" duration="16058000" />
-      <workItem from="1665035104344" duration="3504000" />
+      <workItem from="1665035104344" duration="4696000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -279,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664955678571</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add interfaces...">
+      <created>1665042980573</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665042980573</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +331,7 @@
     <MESSAGE value="start Interfaces..." />
     <MESSAGE value="add IUserService..." />
     <MESSAGE value="maybe not..." />
-    <option name="LAST_COMMIT_MESSAGE" value="maybe not..." />
+    <MESSAGE value="add interfaces..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add interfaces..." />
   </component>
 </project>
