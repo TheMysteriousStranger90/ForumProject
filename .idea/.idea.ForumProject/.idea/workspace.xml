@@ -6,19 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/0/f/0f4ef9f6b16e95f2d1fed669290bd948a2b71bf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/3/8/38526699bc8e0525f029605d4ff42db845ed3537" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/3/e/3e4e343b84dc3f13bb7d432c35af289628a0ca1c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/5/5/55ae2098f8f31d2b2da2816c21ac1383d83da067" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/6/0/604edf14abe607ad1b1115303b5426f1e84e6def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/a/e/aead3d1bad1ffa404396edcaee6dd76b660e502c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/b/c/bc59cf66c3e06c8b0876f553ad1b10c78eb8bd52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/c/7/c7cbba72e87a2f3648ad1b9678cae1a4e020d688" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/d/8/d86dd49581f2123b337954982c26d5b73551acad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/f/4/f4c82552f572f5f8857ad7c70a2000abd121a623" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/ICategoryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/Repositories/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Repositories/Repository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +87,8 @@
       <updated>1664778051665</updated>
       <workItem from="1664778062586" duration="20546000" />
       <workItem from="1664854547379" duration="19194000" />
-      <workItem from="1664948310425" duration="5739000" />
+      <workItem from="1664948310425" duration="16058000" />
+      <workItem from="1665035104344" duration="3504000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -280,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664889387384</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="maybe not...">
+      <created>1664955678571</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1664955678571</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +323,7 @@
     <MESSAGE value="add other DTOs" />
     <MESSAGE value="start Interfaces..." />
     <MESSAGE value="add IUserService..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add IUserService..." />
+    <MESSAGE value="maybe not..." />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe not..." />
   </component>
 </project>
