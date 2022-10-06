@@ -5,10 +5,8 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add Automapper...">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/e/0/e0f4552e00511decec5f0d8b0bbde386377409da" beforeDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="...">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <workItem from="1664778062586" duration="20546000" />
       <workItem from="1664854547379" duration="19194000" />
       <workItem from="1664948310425" duration="16058000" />
-      <workItem from="1665035104344" duration="5003000" />
+      <workItem from="1665035104344" duration="5717000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -292,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665043997050</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="...">
+      <created>1665044233629</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1665044233629</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +333,6 @@
     <MESSAGE value="fix..." />
     <MESSAGE value="add Migrations..." />
     <MESSAGE value="add SeedData and new migration..." />
-    <MESSAGE value="..." />
     <MESSAGE value="add basic exception..." />
     <MESSAGE value="add LoginDTO and SignupDTO..." />
     <MESSAGE value="add UserDTO..." />
@@ -339,6 +343,7 @@
     <MESSAGE value="maybe not..." />
     <MESSAGE value="add interfaces..." />
     <MESSAGE value="add Automapper..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add Automapper..." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>

@@ -8,6 +8,7 @@ using DAL;
 using DAL.Context;
 using DAL.Entities;
 using DAL.Interfaces;
+using DAL.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -43,7 +44,12 @@ namespace ForumProjectWebAPI
             services.AddIdentity<User, UserRole>(options => options.User.RequireUniqueEmail = true)
                 .AddEntityFrameworkStores<ForumProjectContext>();
             
+            
+            services.AddScoped<IMessageRepository, MessageRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ITopicRepository, TopicRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            
             
             var mapperConfig = new MapperConfiguration(mc =>
             {

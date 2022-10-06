@@ -53,9 +53,5 @@ U
 %DAL/Repositories/MessageRepository.cs,5\5\55ae2098f8f31d2b2da2816c21ac1383d83da067
 [
 +DAL/Configurations/CategoryConfiguration.cs,0\7\073a68b70e8575d22677cc2f2a6b2af1b00c5eb9
-?
-DAL/SeedData.cs,1\6\16d570551ddcc76f1e1087bf914325a7fd8b0512
-R
-"DAL/Context/ForumProjectContext.cs,d\5\d56bbe484e59efc23a2c2cdd2fa57afac6c14f6e
 W
 'DAL/Configurations/UserConfiguration.cs,f\d\fdaeb566e53ad772bf7ed45e559ac96c8f4ef8de
