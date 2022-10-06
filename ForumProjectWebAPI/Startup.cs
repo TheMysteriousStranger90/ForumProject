@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using BLL.Mapping;
 using DAL;
 using DAL.Context;
 using DAL.Entities;
@@ -42,6 +44,17 @@ namespace ForumProjectWebAPI
                 .AddEntityFrameworkStores<ForumProjectContext>();
             
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new AutomapperProfile());
+            });
+            
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+            
+            
+            
             
             services.AddControllers();
             services.AddSwaggerGen(c =>

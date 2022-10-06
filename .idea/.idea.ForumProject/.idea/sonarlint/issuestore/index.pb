@@ -43,8 +43,6 @@ R
 "DAL/Interfaces/ITopicRepository.cs,7\3\7377bf32a5ebe1e839203dd54ae45c1bb3559ede
 N
 DAL/Repositories/Repository.cs,c\7\c7cbba72e87a2f3648ad1b9678cae1a4e020d688
-M
-ForumProjectWebAPI/Startup.cs,c\8\c846370cf1e6240e32bd79d5952e3b501e34dfcc
 S
 #DAL/Repositories/TopicRepository.cs,a\8\a85e485bc65a19de1e92ccd2a47f224d661bca87
 V
