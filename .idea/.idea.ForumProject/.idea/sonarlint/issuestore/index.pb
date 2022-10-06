@@ -7,8 +7,6 @@ U
 %ForumProjectWebAPI/WeatherForecast.cs,d\0\d02bcd10dc84a33370413e6d2bf69754be51e16f
 M
 ForumProjectWebAPI/Program.cs,7\6\7674ec22eff3844443888a5085b0f98dac0bc8c1
-S
-#ForumProjectWebAPI/appsettings.json,f\1\f1bf861a4627577cfef00066a2d8b1fed8b1ed8a
 \
 ,ForumProjectWebAPI/ForumProjectWebAPI.csproj,5\f\5f0982035ae6980617829b8ad9f34122c9d4e574
 O

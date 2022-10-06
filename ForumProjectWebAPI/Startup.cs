@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using BLL.Injections;
 using BLL.Mapping;
 using DAL;
 using DAL.Context;
@@ -58,6 +59,9 @@ namespace ForumProjectWebAPI
             
             IMapper mapper = mapperConfig.CreateMapper();
             services.AddSingleton(mapper);
+            
+            
+            services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
             
             
             

@@ -5,8 +5,15 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="...">
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add services.AddScoped...">
+      <change afterPath="$PROJECT_DIR$/BLL/Injections/AuthResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL/Injections/JwtConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/f/1/f1bf861a4627577cfef00066a2d8b1fed8b1ed8a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/BLL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/BLL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +92,7 @@
       <workItem from="1664778062586" duration="20546000" />
       <workItem from="1664854547379" duration="19194000" />
       <workItem from="1664948310425" duration="16058000" />
-      <workItem from="1665035104344" duration="5717000" />
+      <workItem from="1665035104344" duration="6890000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -297,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665044233629</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add services.AddScoped...">
+      <created>1665045044850</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1665045044850</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +333,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Init..." />
     <MESSAGE value="add BaseEntity..." />
     <MESSAGE value="add other entities..." />
     <MESSAGE value="add interface IRepository..." />
@@ -344,6 +357,7 @@
     <MESSAGE value="add interfaces..." />
     <MESSAGE value="add Automapper..." />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="add services.AddScoped..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add services.AddScoped..." />
   </component>
 </project>
