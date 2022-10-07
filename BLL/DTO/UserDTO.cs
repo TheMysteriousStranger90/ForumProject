@@ -1,8 +1,9 @@
 ﻿using System;
+using BLL.Injections;
 
 namespace BLL.DTO
 {
-    public class UserDTO
+    public class UserDTO : AuthResult
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
