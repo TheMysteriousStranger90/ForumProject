@@ -13,6 +13,10 @@ namespace DAL.Repositories
         public MessageRepository(ForumProjectContext context) : base(context)
         {
         }
+        public IEnumerable<Message> GetAll()
+        {
+            return _context.Set<Message>();
+        }
 
         public IEnumerable<Message> FindAllByUserId(int userId)
         {

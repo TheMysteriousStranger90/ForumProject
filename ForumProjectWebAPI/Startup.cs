@@ -4,7 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using BLL.Injections;
+using BLL.Interfaces;
 using BLL.Mapping;
+using BLL.Services;
 using DAL;
 using DAL.Context;
 using DAL.Entities;
@@ -62,6 +64,8 @@ namespace ForumProjectWebAPI
             
             
             services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
+            
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
             
             
             

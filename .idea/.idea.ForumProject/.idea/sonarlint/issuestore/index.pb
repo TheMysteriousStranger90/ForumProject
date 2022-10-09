@@ -17,10 +17,6 @@ b
 2DAL/Migrations/ForumProjectContextModelSnapshot.cs,3\7\372ebce659bd915f8793c231eefa0e22576adb00
 g
 7DAL/Migrations/20221004061720_InitialCreate.Designer.cs,c\6\c6d7ba0f97b4b671f0002423e5dd03ce78b705f8
-S
-#BLL/Exceptions/NotFoundException.cs,e\6\e67e6ea5b9019331b0526d0f4a98ff7d5656d960
-W
-'BLL/Exceptions/ForumProjectException.cs,9\0\902be555eb430d992730ba365f13d6337014de15
 F
 BLL/DTO/UserRoleDTO.cs,3\6\367baca289bb1bf23a455d8c892925ab24db840e
 F
@@ -33,20 +29,8 @@ E
 DAL/DAL.csproj,d\8\d86dd49581f2123b337954982c26d5b73551acad
 M
 DAL/Interfaces/IRepository.cs,3\8\38526699bc8e0525f029605d4ff42db845ed3537
-U
-%DAL/Interfaces/ICategoryRepository.cs,6\0\604edf14abe607ad1b1115303b5426f1e84e6def
-R
-"DAL/Interfaces/ITopicRepository.cs,7\3\7377bf32a5ebe1e839203dd54ae45c1bb3559ede
-N
-DAL/Repositories/Repository.cs,c\7\c7cbba72e87a2f3648ad1b9678cae1a4e020d688
-S
-#DAL/Repositories/TopicRepository.cs,a\8\a85e485bc65a19de1e92ccd2a47f224d661bca87
 V
 &DAL/Repositories/CategoryRepository.cs,a\e\aead3d1bad1ffa404396edcaee6dd76b660e502c
-T
-$DAL/Interfaces/IMessageRepository.cs,f\4\f4c82552f572f5f8857ad7c70a2000abd121a623
-U
-%DAL/Repositories/MessageRepository.cs,5\5\55ae2098f8f31d2b2da2816c21ac1383d83da067
 [
 +DAL/Configurations/CategoryConfiguration.cs,0\7\073a68b70e8575d22677cc2f2a6b2af1b00c5eb9
 W
@@ -65,19 +49,21 @@ H
 DAL/Entities/Category.cs,b\f\bf4d408d3538814acf7bbf57760dc6311f647cb1
 J
 DAL/Entities/BaseEntity.cs,8\6\86dc7ca9cc13a45737b8b6723bb0bb7255762fb3
-M
-DAL/Interfaces/IUnitOfWork.cs,0\f\0f4ef9f6b16e95f2d1fed669290bd948a2b71bf8
 A
 DAL/UnitOfWork.cs,f\e\feb7f407c5c6b4029fff04b909732ab442a0ac24
 G
 BLL/Interfaces/ICrud.cs,4\0\404b4dcce9e2d61049c1ccb924b4215a4f9a781a
-N
-BLL/Interfaces/IUserService.cs,3\d\3d4a76cf4c7f82ba65bb6cff63493364c56964c0
-O
-BLL/Interfaces/ITopicService.cs,9\f\9f37c047a37e82283f8ffbd5f1878f1a6db7aa18
 R
 "BLL/Interfaces/ICategoryService.cs,a\d\ada69b921a7f1a20ba8d9e99fb1b09f520248033
-Q
-!BLL/Interfaces/IMessageService.cs,e\d\ede64b91bbcc8edd85efb93f1179967412137d11
 D
 DAL/Entities/User.cs,5\a\5a5e094cb4fb5c538afdbdc37bac769c6d03f905
+P
+ BLL/Mapping/AutomapperProfile.cs,5\e\5ebb10e5ced1a66e7340709b3d69c9fde4a00c8d
+S
+#ForumProjectWebAPI/appsettings.json,f\1\f1bf861a4627577cfef00066a2d8b1fed8b1ed8a
+R
+"DAL/Context/ForumProjectContext.cs,d\5\d56bbe484e59efc23a2c2cdd2fa57afac6c14f6e
+?
+DAL/SeedData.cs,1\6\16d570551ddcc76f1e1087bf914325a7fd8b0512
+>
+BLL/BLL.csproj,e\0\e0f4552e00511decec5f0d8b0bbde386377409da

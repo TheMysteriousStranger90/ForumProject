@@ -7,6 +7,7 @@ namespace DAL.Interfaces
 {
     public interface IMessageRepository : IRepository<Message>
     {
+        IEnumerable<Message> GetAll();
         IEnumerable<Message> FindAllByUserId(int userId);
         
         Task<IEnumerable<Message>> GetByTopicIdWithDetailsAsync(int topicId);

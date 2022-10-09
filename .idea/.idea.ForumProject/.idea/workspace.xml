@@ -6,10 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BLL/Services/AuthenticationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/7/3/7377bf32a5ebe1e839203dd54ae45c1bb3559ede" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/a/8/a85e485bc65a19de1e92ccd2a47f224d661bca87" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/BLL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/BLL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Interfaces/IMessageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Interfaces/IMessageRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Interfaces/ITopicRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Interfaces/ITopicRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Repositories/MessageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Repositories/MessageRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Repositories/TopicRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Repositories/TopicRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +96,8 @@
       <workItem from="1664854547379" duration="19194000" />
       <workItem from="1664948310425" duration="16058000" />
       <workItem from="1665035104344" duration="8155000" />
-      <workItem from="1665132599498" duration="3063000" />
+      <workItem from="1665132599498" duration="3682000" />
+      <workItem from="1665298222972" duration="4773000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -315,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665047456943</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add AuthenticationService...">
+      <created>1665136087623</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1665136087623</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +352,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add other entities..." />
     <MESSAGE value="add interface IRepository..." />
     <MESSAGE value="add other interfaces..." />
     <MESSAGE value="add context and configurations..." />
@@ -362,6 +376,7 @@
     <MESSAGE value="..." />
     <MESSAGE value="add services.AddScoped..." />
     <MESSAGE value="add config token..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add config token..." />
+    <MESSAGE value="add AuthenticationService..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add AuthenticationService..." />
   </component>
 </project>

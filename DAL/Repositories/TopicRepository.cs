@@ -13,6 +13,11 @@ namespace DAL.Repositories
         public TopicRepository(ForumProjectContext context) : base(context)
         {
         }
+        
+        public IEnumerable<Topic> GetAll()
+        {
+            return _context.Set<Topic>().Include(x => x.Messages);
+        }
 
         public async Task<IEnumerable<Topic>> GetAllWithDetailsAsync()
         {
