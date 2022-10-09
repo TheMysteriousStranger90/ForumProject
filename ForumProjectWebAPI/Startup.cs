@@ -66,6 +66,8 @@ namespace ForumProjectWebAPI
             services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
             
             services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ICategoryService, CategoryService>();
             
             
             

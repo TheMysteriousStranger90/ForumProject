@@ -5,14 +5,7 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add UserService...">
-      <change afterPath="$PROJECT_DIR$/BLL/Services/CategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/Interfaces/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Interfaces/IUnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/UnitOfWork.cs" afterDir="false" />
-    </list>
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add CategoryService" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +85,7 @@
       <workItem from="1664948310425" duration="16058000" />
       <workItem from="1665035104344" duration="8155000" />
       <workItem from="1665132599498" duration="3682000" />
-      <workItem from="1665298222972" duration="7403000" />
+      <workItem from="1665298222972" duration="7867000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -332,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665303154327</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add CategoryService">
+      <created>1665305892717</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1665305892717</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +354,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add other interfaces..." />
     <MESSAGE value="add context and configurations..." />
     <MESSAGE value="add Repository..." />
     <MESSAGE value="add RoleTypes..." />
@@ -379,6 +378,7 @@
     <MESSAGE value="add config token..." />
     <MESSAGE value="add AuthenticationService..." />
     <MESSAGE value="add UserService..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add UserService..." />
+    <MESSAGE value="add CategoryService" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CategoryService" />
   </component>
 </project>
