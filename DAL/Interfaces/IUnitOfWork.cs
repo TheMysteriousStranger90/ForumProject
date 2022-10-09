@@ -11,6 +11,6 @@ namespace DAL.Interfaces
         ITopicRepository TopicRepository { get; }
         IMessageRepository MessageRepository { get; }
         UserManager<User> UserManager { get; }
-        Task SaveAsync();
+        Task<int> SaveAsync();
     }
 }

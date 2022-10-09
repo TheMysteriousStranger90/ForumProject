@@ -17,7 +17,6 @@ namespace BLL.Services
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly JwtConfig _jwtConfig;
 
         public UserService(IUnitOfWork unitOfWork, IMapper mapper)
         {

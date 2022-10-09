@@ -27,8 +27,6 @@ E
 BLL/DTO/MessageDTO.cs,7\7\772138d156fe9505bb8a2bd075671c74e97aea40
 >
 DAL/DAL.csproj,d\8\d86dd49581f2123b337954982c26d5b73551acad
-M
-DAL/Interfaces/IRepository.cs,3\8\38526699bc8e0525f029605d4ff42db845ed3537
 V
 &DAL/Repositories/CategoryRepository.cs,a\e\aead3d1bad1ffa404396edcaee6dd76b660e502c
 [
@@ -49,12 +47,8 @@ H
 DAL/Entities/Category.cs,b\f\bf4d408d3538814acf7bbf57760dc6311f647cb1
 J
 DAL/Entities/BaseEntity.cs,8\6\86dc7ca9cc13a45737b8b6723bb0bb7255762fb3
-A
-DAL/UnitOfWork.cs,f\e\feb7f407c5c6b4029fff04b909732ab442a0ac24
 G
 BLL/Interfaces/ICrud.cs,4\0\404b4dcce9e2d61049c1ccb924b4215a4f9a781a
-R
-"BLL/Interfaces/ICategoryService.cs,a\d\ada69b921a7f1a20ba8d9e99fb1b09f520248033
 D
 DAL/Entities/User.cs,5\a\5a5e094cb4fb5c538afdbdc37bac769c6d03f905
 P
