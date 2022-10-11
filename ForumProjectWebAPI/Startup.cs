@@ -12,9 +12,11 @@ using DAL.Context;
 using DAL.Entities;
 using DAL.Interfaces;
 using DAL.Repositories;
+using ForumProjectWebAPI.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -71,8 +73,15 @@ namespace ForumProjectWebAPI
             services.AddScoped<ITopicService, TopicService>();
             services.AddScoped<IMessageService, MessageService>();
             
-            
-            
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireDigit = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredLength = 1;
+            });
+            services.AddJwtBearerAuthentication(Configuration);
             
             services.AddControllers();
             services.AddSwaggerGen(c =>

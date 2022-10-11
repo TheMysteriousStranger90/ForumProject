@@ -7,8 +7,6 @@ U
 %ForumProjectWebAPI/WeatherForecast.cs,d\0\d02bcd10dc84a33370413e6d2bf69754be51e16f
 M
 ForumProjectWebAPI/Program.cs,7\6\7674ec22eff3844443888a5085b0f98dac0bc8c1
-\
-,ForumProjectWebAPI/ForumProjectWebAPI.csproj,5\f\5f0982035ae6980617829b8ad9f34122c9d4e574
 O
 DAL/Entities/Roles/RoleTypes.cs,3\e\3ee057ccfcd2e313fc6662306090888a670c89a2
 ^
@@ -23,8 +21,6 @@ F
 BLL/DTO/CategoryDTO.cs,c\b\cb2751b85abc929920e5cbdde0f15b929deda110
 E
 BLL/DTO/MessageDTO.cs,7\7\772138d156fe9505bb8a2bd075671c74e97aea40
->
-DAL/DAL.csproj,d\8\d86dd49581f2123b337954982c26d5b73551acad
 [
 +DAL/Configurations/CategoryConfiguration.cs,0\7\073a68b70e8575d22677cc2f2a6b2af1b00c5eb9
 W
@@ -47,12 +43,8 @@ P
  BLL/Mapping/AutomapperProfile.cs,5\e\5ebb10e5ced1a66e7340709b3d69c9fde4a00c8d
 S
 #ForumProjectWebAPI/appsettings.json,f\1\f1bf861a4627577cfef00066a2d8b1fed8b1ed8a
-R
-"DAL/Context/ForumProjectContext.cs,d\5\d56bbe484e59efc23a2c2cdd2fa57afac6c14f6e
 ?
 DAL/SeedData.cs,1\6\16d570551ddcc76f1e1087bf914325a7fd8b0512
->
-BLL/BLL.csproj,e\0\e0f4552e00511decec5f0d8b0bbde386377409da
 B
 BLL/DTO/UserDTO.cs,3\1\31984b3a98d92bb2809649db8951b9281bcb3d42
 W
