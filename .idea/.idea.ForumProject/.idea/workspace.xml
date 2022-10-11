@@ -5,7 +5,12 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add CategoryService" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BLL/Services/TopicService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +90,8 @@
       <workItem from="1664948310425" duration="16058000" />
       <workItem from="1665035104344" duration="8155000" />
       <workItem from="1665132599498" duration="3682000" />
-      <workItem from="1665298222972" duration="7867000" />
+      <workItem from="1665298222972" duration="9065000" />
+      <workItem from="1665461574887" duration="2112000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -332,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665305892717</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="startup fix...">
+      <created>1665306371309</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1665306371309</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +367,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add context and configurations..." />
     <MESSAGE value="add Repository..." />
     <MESSAGE value="add RoleTypes..." />
     <MESSAGE value="add CategoryRepository..." />
@@ -379,6 +391,7 @@
     <MESSAGE value="add AuthenticationService..." />
     <MESSAGE value="add UserService..." />
     <MESSAGE value="add CategoryService" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CategoryService" />
+    <MESSAGE value="startup fix..." />
+    <option name="LAST_COMMIT_MESSAGE" value="startup fix..." />
   </component>
 </project>
