@@ -5,17 +5,16 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add TopicService">
-      <change afterPath="$PROJECT_DIR$/BLL/Services/MessageService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/IMessageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/IMessageService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Services/TopicService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/TopicService.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="delete ICrud...">
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/User/Desktop/ForumProject/BLL/Interfaces/IMessageService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +91,7 @@
       <workItem from="1665035104344" duration="8155000" />
       <workItem from="1665132599498" duration="3682000" />
       <workItem from="1665298222972" duration="9065000" />
-      <workItem from="1665461574887" duration="4786000" />
+      <workItem from="1665461574887" duration="5331000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -353,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665463720179</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add MessageService...">
+      <created>1665466422461</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1665466422461</updated>
+    </task>
+    <task id="LOCAL-00039" summary="delete ICrud...">
+      <created>1665466460367</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1665466460367</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,8 +388,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add RoleTypes..." />
-    <MESSAGE value="add CategoryRepository..." />
     <MESSAGE value="add other repositories and fix some problems..." />
     <MESSAGE value="add UnitOfWork..." />
     <MESSAGE value="fix..." />
@@ -400,6 +411,8 @@
     <MESSAGE value="add CategoryService" />
     <MESSAGE value="startup fix..." />
     <MESSAGE value="add TopicService" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TopicService" />
+    <MESSAGE value="add MessageService..." />
+    <MESSAGE value="delete ICrud..." />
+    <option name="LAST_COMMIT_MESSAGE" value="delete ICrud..." />
   </component>
 </project>

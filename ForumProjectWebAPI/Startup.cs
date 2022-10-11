@@ -68,6 +68,8 @@ namespace ForumProjectWebAPI
             services.AddScoped<IAuthenticationService, AuthenticationService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ITopicService, TopicService>();
+            services.AddScoped<IMessageService, MessageService>();
             
             
             
