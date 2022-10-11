@@ -5,9 +5,7 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="delete ICrud...">
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
-    </list>
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="fix Startup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/User/Desktop/ForumProject/BLL/Interfaces/IMessageService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Desktop/ForumProject/ForumProjectWebAPI/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -91,7 +90,7 @@
       <workItem from="1665035104344" duration="8155000" />
       <workItem from="1665132599498" duration="3682000" />
       <workItem from="1665298222972" duration="9065000" />
-      <workItem from="1665461574887" duration="5331000" />
+      <workItem from="1665461574887" duration="5647000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -366,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665466460367</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="fix Startup">
+      <created>1665467100056</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1665467100056</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +394,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add other repositories and fix some problems..." />
     <MESSAGE value="add UnitOfWork..." />
     <MESSAGE value="fix..." />
     <MESSAGE value="add Migrations..." />
@@ -413,6 +418,7 @@
     <MESSAGE value="add TopicService" />
     <MESSAGE value="add MessageService..." />
     <MESSAGE value="delete ICrud..." />
-    <option name="LAST_COMMIT_MESSAGE" value="delete ICrud..." />
+    <MESSAGE value="fix Startup" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix Startup" />
   </component>
 </project>
