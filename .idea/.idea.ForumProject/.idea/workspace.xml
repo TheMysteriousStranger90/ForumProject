@@ -5,15 +5,7 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add LogInfo">
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Helpers/JwtConfigurations.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/BLL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/BLL.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/DAL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/DAL.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/ForumProjectWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/ForumProjectWebAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
-    </list>
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add JwtConfigurations..." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +90,7 @@
       <workItem from="1665035104344" duration="8155000" />
       <workItem from="1665132599498" duration="3682000" />
       <workItem from="1665298222972" duration="9065000" />
-      <workItem from="1665461574887" duration="7042000" />
+      <workItem from="1665461574887" duration="7463000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -387,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665467495406</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add JwtConfigurations...">
+      <created>1665469309109</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1665469309109</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +408,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="fix..." />
     <MESSAGE value="add Migrations..." />
     <MESSAGE value="add SeedData and new migration..." />
     <MESSAGE value="add basic exception..." />
@@ -434,6 +432,7 @@
     <MESSAGE value="delete ICrud..." />
     <MESSAGE value="fix Startup" />
     <MESSAGE value="add LogInfo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LogInfo" />
+    <MESSAGE value="add JwtConfigurations..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add JwtConfigurations..." />
   </component>
 </project>

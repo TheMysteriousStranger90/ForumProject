@@ -12,6 +12,7 @@ using DAL.Context;
 using DAL.Entities;
 using DAL.Interfaces;
 using DAL.Repositories;
+using ForumProjectWebAPI.Filters;
 using ForumProjectWebAPI.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -83,7 +84,11 @@ namespace ForumProjectWebAPI
             });
             services.AddJwtBearerAuthentication(Configuration);
             
-            services.AddControllers();
+            services.AddControllers(options =>
+            {
+                options.Filters.Add(new CustomExceptionFilterAttribute()); 
+            });
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ForumProjectWebAPI", Version = "v1" });
