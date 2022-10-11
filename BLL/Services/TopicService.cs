@@ -34,7 +34,7 @@ namespace BLL.Services
         public IEnumerable<TopicDTO> GetAllTopics()
         {
             var topics = _unitOfWork.TopicRepository.GetAllAsync();
-            if (topics == null) throw new NotFoundException($"This topic wasn't found");
+            if (topics == null) throw new NotFoundException($"This topics wasn't found");
             
             var result = _mapper.Map<IEnumerable<TopicDTO>>(topics);
             return result;

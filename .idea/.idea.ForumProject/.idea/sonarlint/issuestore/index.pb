@@ -69,12 +69,6 @@ C
 BLL/DTO/LoginDTO.cs,8\3\8305f39d8b5c01194c4203b3f6b18bb47a721f4c
 S
 #BLL/Exceptions/NotFoundException.cs,e\6\e67e6ea5b9019331b0526d0f4a98ff7d5656d960
-Q
-!BLL/Interfaces/IMessageService.cs,e\d\ede64b91bbcc8edd85efb93f1179967412137d11
-T
-$DAL/Interfaces/IMessageRepository.cs,f\4\f4c82552f572f5f8857ad7c70a2000abd121a623
-U
-%DAL/Repositories/MessageRepository.cs,5\5\55ae2098f8f31d2b2da2816c21ac1383d83da067
 X
 (BLL/Interfaces/IAuthenticationService.cs,b\8\b81ab1c7ec7c326b8e599b17bf92cbfb16b5cced
 N

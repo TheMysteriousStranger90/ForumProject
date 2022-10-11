@@ -5,11 +5,12 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BLL/Services/TopicService.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add TopicService">
+      <change afterPath="$PROJECT_DIR$/BLL/Services/MessageService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/IMessageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/IMessageService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Services/TopicService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/TopicService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <workItem from="1665035104344" duration="8155000" />
       <workItem from="1665132599498" duration="3682000" />
       <workItem from="1665298222972" duration="9065000" />
-      <workItem from="1665461574887" duration="2112000" />
+      <workItem from="1665461574887" duration="4786000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -345,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665306371309</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add TopicService">
+      <created>1665463720178</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1665463720179</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +375,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add Repository..." />
     <MESSAGE value="add RoleTypes..." />
     <MESSAGE value="add CategoryRepository..." />
     <MESSAGE value="add other repositories and fix some problems..." />
@@ -392,6 +399,7 @@
     <MESSAGE value="add UserService..." />
     <MESSAGE value="add CategoryService" />
     <MESSAGE value="startup fix..." />
-    <option name="LAST_COMMIT_MESSAGE" value="startup fix..." />
+    <MESSAGE value="add TopicService" />
+    <option name="LAST_COMMIT_MESSAGE" value="add TopicService" />
   </component>
 </project>
