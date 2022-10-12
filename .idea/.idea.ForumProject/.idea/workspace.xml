@@ -5,12 +5,12 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Helpers/SwaggerConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/d/c/dcfa2dc8656a9bf02a954bd1f9f580e490ed7458" beforeDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add SwaggerConfiguration">
+      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/AuthenticationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/d/0/d02bcd10dc84a33370413e6d2bf69754be51e16f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/DTO/SignUpDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/DTO/SignUpDTO.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1665132599498" duration="3682000" />
       <workItem from="1665298222972" duration="9065000" />
       <workItem from="1665461574887" duration="9235000" />
-      <workItem from="1665545456597" duration="2002000" />
+      <workItem from="1665545456597" duration="6478000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -396,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665469837374</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add SwaggerConfiguration">
+      <created>1665547997919</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1665547997919</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +425,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add SeedData and new migration..." />
     <MESSAGE value="add basic exception..." />
     <MESSAGE value="add LoginDTO and SignupDTO..." />
     <MESSAGE value="add UserDTO..." />
@@ -443,6 +449,7 @@
     <MESSAGE value="add LogInfo" />
     <MESSAGE value="add JwtConfigurations..." />
     <MESSAGE value="add filters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add filters" />
+    <MESSAGE value="add SwaggerConfiguration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SwaggerConfiguration" />
   </component>
 </project>

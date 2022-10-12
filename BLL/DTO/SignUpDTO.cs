@@ -15,9 +15,9 @@ namespace BLL.DTO
         [StringLength(70, MinimumLength = 2, ErrorMessage = "The Last Name value cannot exceed 70 characters. ")]
         public string LastName { get; set; }
 
-        [Required(ErrorMessage = "Login is required")]
-        [StringLength(70, MinimumLength = 5, ErrorMessage = "The Login value cannot exceed 70 characters. ")]
-        public string Login { get; set; }
+        [Required(ErrorMessage = "UserName is required")]
+        [StringLength(70, MinimumLength = 2, ErrorMessage = "The UserName value cannot exceed 70 characters. ")]
+        public string UserName { get; set; }
 
         [EmailAddress] public string Email { get; set; }
 
