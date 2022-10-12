@@ -5,12 +5,13 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add SwaggerConfiguration">
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/AuthenticationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/d/0/d02bcd10dc84a33370413e6d2bf69754be51e16f" beforeDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="delete weather...">
+      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/DTO/SignUpDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/DTO/SignUpDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/DTO/UserDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/DTO/UserDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <workItem from="1665132599498" duration="3682000" />
       <workItem from="1665298222972" duration="9065000" />
       <workItem from="1665461574887" duration="9235000" />
-      <workItem from="1665545456597" duration="6478000" />
+      <workItem from="1665545456597" duration="12305000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -403,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665547997919</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add AuthenticationController">
+      <created>1665552690223</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1665552690223</updated>
+    </task>
+    <task id="LOCAL-00046" summary="delete weather...">
+      <created>1665552824093</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1665552824093</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,8 +440,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add basic exception..." />
-    <MESSAGE value="add LoginDTO and SignupDTO..." />
     <MESSAGE value="add UserDTO..." />
     <MESSAGE value="add other exceptions..." />
     <MESSAGE value="add other DTOs" />
@@ -450,6 +463,8 @@
     <MESSAGE value="add JwtConfigurations..." />
     <MESSAGE value="add filters" />
     <MESSAGE value="add SwaggerConfiguration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SwaggerConfiguration" />
+    <MESSAGE value="add AuthenticationController" />
+    <MESSAGE value="delete weather..." />
+    <option name="LAST_COMMIT_MESSAGE" value="delete weather..." />
   </component>
 </project>

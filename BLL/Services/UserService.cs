@@ -87,7 +87,7 @@ namespace BLL.Services
             userUpdate.FirstName = user.FirstName;
             userUpdate.LastName = user.LastName;
             userUpdate.Email = user.Email;
-            userUpdate.UserName = user.Login;
+            userUpdate.UserName = user.UserName;
 
             var result = await _unitOfWork.UserManager.UpdateAsync(userUpdate);
             if (!result.Succeeded) throw new ForumProjectException(result.Errors?.FirstOrDefault()?.Description);
@@ -99,15 +99,6 @@ namespace BLL.Services
                 .FirstOrDefaultAsync(u => u.Id == id);
             
             if (user == null) throw new NotFoundException("User not found");
-                
-            var topics =  _unitOfWork.TopicRepository.GetAll().Where(t => t.UserId == id);
-            if (topics.Count() != 0)
-            {
-                foreach (var item in topics)
-                {
-                    _unitOfWork.TopicRepository.Remove(item);
-                }
-            }
             
             var messages = _unitOfWork.MessageRepository.GetAll().Where(t => t.UserId == id);
             if (messages.Count() != 0)
@@ -115,6 +106,15 @@ namespace BLL.Services
                 foreach (var item in messages)
                 {
                     _unitOfWork.MessageRepository.Remove(item);
+                }
+            }
+            
+            var topics =  _unitOfWork.TopicRepository.GetAll().Where(t => t.UserId == id);
+            if (topics.Count() != 0)
+            {
+                foreach (var item in topics)
+                {
+                    _unitOfWork.TopicRepository.Remove(item);
                 }
             }
             

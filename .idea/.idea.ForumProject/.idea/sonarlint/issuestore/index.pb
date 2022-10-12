@@ -3,8 +3,6 @@
 ForumProject.sln,3\7\37b60b4b56a66cf07d71cb51f798c4d62735123e
 M
 ForumProjectWebAPI/Program.cs,7\6\7674ec22eff3844443888a5085b0f98dac0bc8c1
-O
-DAL/Entities/Roles/RoleTypes.cs,3\e\3ee057ccfcd2e313fc6662306090888a670c89a2
 ^
 .DAL/Migrations/20221004061720_InitialCreate.cs,7\0\705382d4e07ca18c7ac1e73d9705ccd9d25f6308
 b
@@ -35,12 +33,8 @@ J
 DAL/Entities/BaseEntity.cs,8\6\86dc7ca9cc13a45737b8b6723bb0bb7255762fb3
 D
 DAL/Entities/User.cs,5\a\5a5e094cb4fb5c538afdbdc37bac769c6d03f905
-P
- BLL/Mapping/AutomapperProfile.cs,5\e\5ebb10e5ced1a66e7340709b3d69c9fde4a00c8d
 S
 #ForumProjectWebAPI/appsettings.json,f\1\f1bf861a4627577cfef00066a2d8b1fed8b1ed8a
-B
-BLL/DTO/UserDTO.cs,3\1\31984b3a98d92bb2809649db8951b9281bcb3d42
 W
 'BLL/Exceptions/AccessDeniedException.cs,7\3\736512c4644f305c24070fce58adb518c92c859b
 S
@@ -85,10 +79,6 @@ O
 BLL/Interfaces/ITopicService.cs,9\f\9f37c047a37e82283f8ffbd5f1878f1a6db7aa18
 O
 BLL/Services/CategoryService.cs,f\a\fa8e7c1167d93923f827bdcecb2a9cce45dd3dff
-U
-%BLL/Services/AuthenticationService.cs,3\8\3849cd299b36a63eb9faf8caaea9ba97d3d6a0a9
-K
-BLL/Services/UserService.cs,3\1\319ba5d6cf5f916390768b498a3a220c590d3989
 L
 BLL/Services/TopicService.cs,c\d\cd544c85729f126317329e90ba3339e991debfe5
 Q
