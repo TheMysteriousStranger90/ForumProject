@@ -40,7 +40,7 @@ namespace ForumProjectWebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+            services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
             
             services.AddDbContext<ForumProjectContext>(options =>
             {
@@ -66,7 +66,7 @@ namespace ForumProjectWebAPI
             services.AddSingleton(mapper);
             
             
-            services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
+            
             
             services.AddScoped<IAuthenticationService, AuthenticationService>();
             services.AddScoped<IUserService, UserService>();
@@ -89,10 +89,9 @@ namespace ForumProjectWebAPI
                 options.Filters.Add(new CustomExceptionFilterAttribute()); 
             });
             
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ForumProjectWebAPI", Version = "v1" });
-            });
+            services.AddSwaggerSettings(Configuration);
+            
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

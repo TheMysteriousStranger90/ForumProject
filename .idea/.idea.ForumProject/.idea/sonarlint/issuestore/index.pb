@@ -1,8 +1,6 @@
 
 @
 ForumProject.sln,3\7\37b60b4b56a66cf07d71cb51f798c4d62735123e
-k
-;ForumProjectWebAPI/Controllers/WeatherForecastController.cs,d\c\dcfa2dc8656a9bf02a954bd1f9f580e490ed7458
 U
 %ForumProjectWebAPI/WeatherForecast.cs,d\0\d02bcd10dc84a33370413e6d2bf69754be51e16f
 M
@@ -67,3 +65,43 @@ N
 DAL/Repositories/Repository.cs,c\7\c7cbba72e87a2f3648ad1b9678cae1a4e020d688
 M
 DAL/Interfaces/IRepository.cs,3\8\38526699bc8e0525f029605d4ff42db845ed3537
+W
+'BLL/Exceptions/ForumProjectException.cs,9\0\902be555eb430d992730ba365f13d6337014de15
+M
+DAL/Interfaces/IUnitOfWork.cs,0\f\0f4ef9f6b16e95f2d1fed669290bd948a2b71bf8
+A
+DAL/UnitOfWork.cs,f\e\feb7f407c5c6b4029fff04b909732ab442a0ac24
+R
+"BLL/Interfaces/ICategoryService.cs,a\d\ada69b921a7f1a20ba8d9e99fb1b09f520248033
+N
+BLL/Interfaces/IUserService.cs,3\d\3d4a76cf4c7f82ba65bb6cff63493364c56964c0
+C
+BLL/DTO/TopicDTO.cs,f\1\f1bb26cd7cc187461c70eceb7348e7b864ba8518
+E
+DAL/Entities/Topic.cs,6\d\6ddde7e9e6d245ee16f3efe2de82310e5dd3bee0
+V
+&DAL/Repositories/CategoryRepository.cs,a\e\aead3d1bad1ffa404396edcaee6dd76b660e502c
+S
+#DAL/Repositories/TopicRepository.cs,a\8\a85e485bc65a19de1e92ccd2a47f224d661bca87
+U
+%DAL/Interfaces/ICategoryRepository.cs,6\0\604edf14abe607ad1b1115303b5426f1e84e6def
+R
+"DAL/Interfaces/ITopicRepository.cs,7\3\7377bf32a5ebe1e839203dd54ae45c1bb3559ede
+O
+BLL/Interfaces/ITopicService.cs,9\f\9f37c047a37e82283f8ffbd5f1878f1a6db7aa18
+O
+BLL/Services/CategoryService.cs,f\a\fa8e7c1167d93923f827bdcecb2a9cce45dd3dff
+U
+%BLL/Services/AuthenticationService.cs,3\8\3849cd299b36a63eb9faf8caaea9ba97d3d6a0a9
+K
+BLL/Services/UserService.cs,3\1\319ba5d6cf5f916390768b498a3a220c590d3989
+L
+BLL/Services/TopicService.cs,c\d\cd544c85729f126317329e90ba3339e991debfe5
+Q
+!BLL/Interfaces/IMessageService.cs,e\d\ede64b91bbcc8edd85efb93f1179967412137d11
+>
+DAL/DAL.csproj,d\8\d86dd49581f2123b337954982c26d5b73551acad
+\
+,ForumProjectWebAPI/ForumProjectWebAPI.csproj,5\f\5f0982035ae6980617829b8ad9f34122c9d4e574
+>
+BLL/BLL.csproj,e\0\e0f4552e00511decec5f0d8b0bbde386377409da
