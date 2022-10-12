@@ -27,7 +27,7 @@ namespace ForumProjectWebAPI.Controllers
             _logger = logger;
         }
 
-        [HttpPost("login")]
+        [HttpPost("Login")]
         [AllowAnonymous]
         public async Task<ActionResult> Login(LoginDTO loginDTO)
         {
@@ -45,7 +45,7 @@ namespace ForumProjectWebAPI.Controllers
         }
 
 
-        [HttpPost("registration")]
+        [HttpPost("Registration")]
         [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<ActionResult> Register(SignUpDTO signUpDTO)

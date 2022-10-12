@@ -31,7 +31,7 @@ namespace ForumProjectWebAPI.Controllers
             _jwtConfig = optionsMonitor.CurrentValue;
         }
         
-        [HttpGet("{id:int}")]
+        [HttpGet("GetUserById/{id}")]
         [Authorize(Roles = RoleTypes.Admin)]
         public async Task<IActionResult> GetUserById(int id)
         {
