@@ -5,10 +5,12 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="fix abstract class Repository...">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/Repositories/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Repositories/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Entities/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Entities/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Entities/Topic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Entities/Topic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/Entities/UserRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/Entities/UserRole.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +95,7 @@
       <workItem from="1665461574887" duration="9235000" />
       <workItem from="1665545456597" duration="19607000" />
       <workItem from="1665633523288" duration="10447000" />
-      <workItem from="1665652397046" duration="286000" />
-    </task>
-    <task id="LOCAL-00002" summary="add BaseEntity...">
-      <created>1664779028213</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664779028213</updated>
+      <workItem from="1665652397046" duration="1813000" />
     </task>
     <task id="LOCAL-00003" summary="add other entities...">
       <created>1664780337373</created>
@@ -438,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665639322251</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="fix abstract class Repository...">
+      <created>1665652738237</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1665652738238</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +462,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add other DTOs" />
     <MESSAGE value="start Interfaces..." />
     <MESSAGE value="add IUserService..." />
     <MESSAGE value="maybe not..." />
@@ -485,6 +486,7 @@
     <MESSAGE value="start UsersController..." />
     <MESSAGE value="add auth and users controller..." />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="fix abstract class Repository..." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix abstract class Repository..." />
   </component>
 </project>

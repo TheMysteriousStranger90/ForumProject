@@ -14,10 +14,5 @@ namespace DAL.Entities
         public User User { get; set; }
         public DateTime CreateTime { get; set; }
         public ICollection<Message> Messages { get; set; }
-
-        public Topic()
-        {
-            Messages = new List<Message>();
-        }
     }
 }

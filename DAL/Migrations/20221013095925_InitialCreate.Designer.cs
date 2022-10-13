@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(ForumProjectContext))]
-    [Migration("20221004061720_InitialCreate")]
+    [Migration("20221013095925_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -82,7 +82,7 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreateTime = new DateTime(2022, 10, 7, 9, 17, 20, 317, DateTimeKind.Local).AddTicks(2324),
+                            CreateTime = new DateTime(2022, 10, 16, 12, 59, 24, 878, DateTimeKind.Local).AddTicks(5792),
                             Text = "The Include() method works quite well for Lists on objects. But what if I need to go two levels deep? Can I do an Include() on that property as well? Or how can I get that property to fully load?",
                             TopicId = 1,
                             UserId = 2
@@ -90,7 +90,7 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreateTime = new DateTime(2022, 10, 8, 9, 17, 20, 317, DateTimeKind.Local).AddTicks(3367),
+                            CreateTime = new DateTime(2022, 10, 17, 12, 59, 24, 878, DateTimeKind.Local).AddTicks(6562),
                             Text = "Make sure to add using System.Data.Entity; to get the version of Include that takes in a lambda.",
                             TopicId = 1,
                             UserId = 3
@@ -131,7 +131,7 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreateTime = new DateTime(2022, 10, 6, 9, 17, 20, 308, DateTimeKind.Local).AddTicks(8597),
+                            CreateTime = new DateTime(2022, 10, 15, 12, 59, 24, 872, DateTimeKind.Local).AddTicks(6322),
                             Title = "Entity Framework",
                             UserId = 2
                         });
@@ -218,7 +218,7 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "06a28c2c-6211-4ce4-abe1-a9e3b26f4e26",
+                            ConcurrencyStamp = "513974c5-cbc3-40e9-8d2d-cbe198803827",
                             Email = "lev.myshkin@outlook.com",
                             EmailConfirmed = true,
                             FirstName = "Lev",
@@ -226,9 +226,9 @@ namespace DAL.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "LEV.MYSHKIN@OUTLOOK.COM",
                             NormalizedUserName = "LEVMYSHKIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEI0SZPaDGXPODaCYyX2maMq8jizUVoolPWkPefCSMIa4Sblj0EZICtDmJtVlyXOUdg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECk/pTbi9tbxfs8yDA/9euPRGYIMjEAX3NYidI0poeOzOy8txwuVnG61xMDDiz/Ujg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "72917556-c576-4f66-b4b9-83be4b602474",
+                            SecurityStamp = "45fa7951-59bd-4b7d-bcac-4ba10a8d7942",
                             TwoFactorEnabled = false,
                             UserName = "LevMyshkin"
                         },
@@ -236,7 +236,7 @@ namespace DAL.Migrations
                         {
                             Id = 2,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b95959c6-a865-422a-ac28-1ed2b9ad28a1",
+                            ConcurrencyStamp = "bf3c17fc-7aa5-4fce-87cc-5ba8199236d3",
                             Email = "rodion.raskolnikov@yandex.ru",
                             EmailConfirmed = true,
                             FirstName = "Rodion",
@@ -244,9 +244,9 @@ namespace DAL.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "RODION.RASKOLNIKOV@YANDEX.RU",
                             NormalizedUserName = "RODIONRASKOLNIKOV",
-                            PasswordHash = "AQAAAAEAACcQAAAAEObJ81gUrSVvSVC7LZh7sh9sc0xdeqNMPKCuToraA5j9CtkydPqkJpKLk3I/2fq7aA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJAhMfKpLdYLRSvzQXaK6u8LDg1mJHWBNOXsZ8eVdZ4vnyyXHOVsF6Z15eaKBhR+Eg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "090edfd1-42b7-41b6-813a-2d68bbc45a0d",
+                            SecurityStamp = "f9aedc3e-defe-40be-b7d9-dcf065295213",
                             TwoFactorEnabled = false,
                             UserName = "RodionRaskolnikov"
                         },
@@ -254,7 +254,7 @@ namespace DAL.Migrations
                         {
                             Id = 3,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cd7bcbeb-fab1-4e1d-928b-37b83ef4aed3",
+                            ConcurrencyStamp = "92234d08-9021-4e55-aae3-8c41d95a3110",
                             Email = "george.winterbourne@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "George",
@@ -262,9 +262,9 @@ namespace DAL.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "GEORGE.WINTERBOURNE@GMAIL.COM",
                             NormalizedUserName = "GEORGEWINTERBOURNE",
-                            PasswordHash = "AQAAAAEAACcQAAAAEK8J+x+zFoiAENwjkB83vJiGI2aQofBV0QGlIgxrtQ/ityVfG3DCaU67QNB9xw9Vng==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELJ6I++2nnjrIzt9UweW7LydSb+rtkc+H1yrV9FYFgMJSHFk7vpByTBTTwIpjxCK2Q==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3fba3f6c-62a4-4a28-a567-0f5394430851",
+                            SecurityStamp = "15455bd2-b117-41bf-b53b-ff52707d738b",
                             TwoFactorEnabled = false,
                             UserName = "GeorgeWinterbourne"
                         });
@@ -302,21 +302,21 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "415b1139-e53a-43e6-9930-9de99bfe308f",
+                            ConcurrencyStamp = "309eff85-0448-48e8-8355-183b29fa4126",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "bef9937e-4cb9-43eb-bd86-f59c0f039e66",
+                            ConcurrencyStamp = "163625f5-c162-4588-b5a4-708a5c3dd7f5",
                             Name = "Moderator",
                             NormalizedName = "MODERATOR"
                         },
                         new
                         {
                             Id = 3,
-                            ConcurrencyStamp = "b698b0e6-1279-44b4-b4e1-a6daeeb7fa3c",
+                            ConcurrencyStamp = "3182c44b-da95-4f2c-988f-fe1f7f22a12d",
                             Name = "User",
                             NormalizedName = "USER"
                         });

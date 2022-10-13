@@ -7,12 +7,6 @@ namespace DAL.Entities
     public class Category : BaseEntity
     {
         public string Name { get; set; }
-
         public ICollection<Topic> Topics { get; set; }
-
-        public Category()
-        {
-            Topics = new List<Topic>();
-        }
     }
 }
