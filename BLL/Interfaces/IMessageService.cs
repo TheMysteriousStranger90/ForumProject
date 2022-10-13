@@ -9,7 +9,7 @@ namespace BLL.Interfaces
     public interface IMessageService
     {
         Task<MessageDTO> CreateAsync(MessageDTO model);
-        IEnumerable<MessageDTO> GetAllMessages();
+        Task<IEnumerable<MessageDTO>> GetAllMessages();
         Task<MessageDTO> GetByIdAsync(int id);
         IEnumerable<MessageDTO> FindAllByUserId(int userId);
         IEnumerable<MessageDTO> FindByUserId(int userId);

@@ -6,7 +6,7 @@ namespace BLL.Interfaces
 {
     public interface IUserService
     {
-        IEnumerable<UserDTO> GetAllUsers();
+        Task<IEnumerable<UserDTO>> GetAllUsers();
         Task<IEnumerable<string>> GetUserRoles(string email);
         Task<UserDTO> GetUserByEmailAsync(string email);
         Task<UserDTO> GetByIdAsync(int id);

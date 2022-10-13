@@ -7,7 +7,7 @@ namespace BLL.Interfaces
     public interface ITopicService
     {
         Task<TopicDTO> CreateAsync(TopicDTO model);
-        IEnumerable<TopicDTO> GetAllTopics();
+        Task<IEnumerable<TopicDTO>> GetAllTopics();
         Task<TopicDTO> GetByIdWithDetailsAsync(int id);
         Task<IEnumerable<TopicDTO>> GetAllWithDetailsAsync();
         Task<TopicDTO> GetByIdAsync(int id);

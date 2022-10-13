@@ -24,9 +24,10 @@ namespace BLL.Services
             _unitOfWork = unitOfWork;
         }
         
-        public IEnumerable<UserDTO> GetAllUsers()
+        public async Task<IEnumerable<UserDTO>> GetAllUsers()
         {
-            var users = _unitOfWork.UserManager.Users.ToList();
+            var users = await _unitOfWork.UserManager.Users.AsNoTracking()
+                .ToListAsync();
             if (users == null) throw new NotFoundException($"Not found!");
             
             var result = _mapper.Map<IEnumerable<UserDTO>>(users);

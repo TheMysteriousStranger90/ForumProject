@@ -50,6 +50,7 @@ namespace ForumProjectWebAPI
             services.AddIdentity<User, UserRole>(options => options.User.RequireUniqueEmail = true)
                 .AddEntityFrameworkStores<ForumProjectContext>();
             
+            services.AddScoped<DbContext, ForumProjectContext>();
             
             services.AddScoped<IMessageRepository, MessageRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();

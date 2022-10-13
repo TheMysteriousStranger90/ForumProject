@@ -36,7 +36,7 @@ namespace ForumProjectWebAPI.Controllers
         {
             try
             {
-                var users = _userService.GetAllUsers();
+                var users = await _userService.GetAllUsers();
                 return Ok(users);
             }
             catch (Exception ex)

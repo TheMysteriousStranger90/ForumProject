@@ -32,9 +32,9 @@ namespace BLL.Services
             return model;
         }
 
-        public IEnumerable<MessageDTO> GetAllMessages()
+        public async Task<IEnumerable<MessageDTO>> GetAllMessages()
         {
-            var messages = _unitOfWork.MessageRepository.GetAllAsync();
+            var messages = await _unitOfWork.MessageRepository.GetAllAsync();
             if (messages == null) throw new NotFoundException($"This messages wasn't found");
 
             var result = _mapper.Map<IEnumerable<MessageDTO>>(messages);

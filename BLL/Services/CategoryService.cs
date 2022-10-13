@@ -21,11 +21,11 @@ namespace BLL.Services
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
-        
+
         public async Task<CategoryDTO> CreateAsync(CategoryDTO model)
         {
             if (model == null) throw new NotFoundException("Category can't be created");
-            
+
             var category = _mapper.Map<Category>(model);
             await _unitOfWork.CategoryRepository.CreateAsync(category);
             await _unitOfWork.SaveAsync();
@@ -33,11 +33,11 @@ namespace BLL.Services
             return model;
         }
 
-        public IEnumerable<CategoryDTO> GetAllCategory()
+        public async Task<IEnumerable<CategoryDTO>> GetAllCategory()
         {
-            var category = _unitOfWork.CategoryRepository.GetAllAsync();
+            var category = await _unitOfWork.CategoryRepository.GetAllAsync();
             if (category == null) throw new NotFoundException($"This category wasn't found");
-            
+
             var result = _mapper.Map<IEnumerable<CategoryDTO>>(category);
             return result;
         }
@@ -45,18 +45,18 @@ namespace BLL.Services
         public async Task<CategoryDTO> GetByIdAsync(int id)
         {
             if (id <= 0) throw new ForumProjectException("Value of id must be positive");
-            var category =  await _unitOfWork.CategoryRepository.GetByIdAsync(id);
-            
-            if (category  == null) throw new NotFoundException("This category wasn't found");
+            var category = await _unitOfWork.CategoryRepository.GetByIdAsync(id);
+
+            if (category == null) throw new NotFoundException("This category wasn't found");
             return _mapper.Map<CategoryDTO>(category);
         }
 
         public async Task UpdateAsync(CategoryDTO model, int id)
         {
             var categoryUpdate = await _unitOfWork.CategoryRepository.GetByIdAsync(id);
-            
+
             if (categoryUpdate == null) throw new NotFoundException("Category not found");
-            
+
             categoryUpdate.Name = model.Name;
 
             _unitOfWork.CategoryRepository.Update(categoryUpdate);
@@ -67,7 +67,7 @@ namespace BLL.Services
         {
             var category = await _unitOfWork.CategoryRepository.GetByIdAsync(id);
             if (category == null) throw new NotFoundException("Category not found");
-            
+
             _unitOfWork.CategoryRepository.Remove(category);
             await _unitOfWork.SaveAsync();
         }

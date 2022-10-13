@@ -35,7 +35,7 @@ namespace ForumProjectWebAPI.Controllers
         {
             try
             {
-                var categories = _categoryService.GetAllCategory();
+                var categories = await _categoryService.GetAllCategory();
                 return Ok(categories);
             }
             catch (Exception ex)
