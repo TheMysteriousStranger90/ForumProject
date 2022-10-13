@@ -47,16 +47,12 @@ S
 #BLL/Exceptions/NotFoundException.cs,e\6\e67e6ea5b9019331b0526d0f4a98ff7d5656d960
 X
 (BLL/Interfaces/IAuthenticationService.cs,b\8\b81ab1c7ec7c326b8e599b17bf92cbfb16b5cced
-N
-DAL/Repositories/Repository.cs,c\7\c7cbba72e87a2f3648ad1b9678cae1a4e020d688
 M
 DAL/Interfaces/IRepository.cs,3\8\38526699bc8e0525f029605d4ff42db845ed3537
 W
 'BLL/Exceptions/ForumProjectException.cs,9\0\902be555eb430d992730ba365f13d6337014de15
 M
 DAL/Interfaces/IUnitOfWork.cs,0\f\0f4ef9f6b16e95f2d1fed669290bd948a2b71bf8
-A
-DAL/UnitOfWork.cs,f\e\feb7f407c5c6b4029fff04b909732ab442a0ac24
 R
 "BLL/Interfaces/ICategoryService.cs,a\d\ada69b921a7f1a20ba8d9e99fb1b09f520248033
 N
@@ -65,8 +61,6 @@ C
 BLL/DTO/TopicDTO.cs,f\1\f1bb26cd7cc187461c70eceb7348e7b864ba8518
 E
 DAL/Entities/Topic.cs,6\d\6ddde7e9e6d245ee16f3efe2de82310e5dd3bee0
-V
-&DAL/Repositories/CategoryRepository.cs,a\e\aead3d1bad1ffa404396edcaee6dd76b660e502c
 S
 #DAL/Repositories/TopicRepository.cs,a\8\a85e485bc65a19de1e92ccd2a47f224d661bca87
 U
@@ -75,8 +69,6 @@ R
 "DAL/Interfaces/ITopicRepository.cs,7\3\7377bf32a5ebe1e839203dd54ae45c1bb3559ede
 O
 BLL/Interfaces/ITopicService.cs,9\f\9f37c047a37e82283f8ffbd5f1878f1a6db7aa18
-O
-BLL/Services/CategoryService.cs,f\a\fa8e7c1167d93923f827bdcecb2a9cce45dd3dff
 L
 BLL/Services/TopicService.cs,c\d\cd544c85729f126317329e90ba3339e991debfe5
 Q
@@ -105,5 +97,3 @@ D
 BLL/DTO/SignUpDTO.cs,2\9\29fbfe5f331f306382f71c26311b4ee45ef5a876
 O
 DAL/Entities/Roles/RoleTypes.cs,3\e\3ee057ccfcd2e313fc6662306090888a670c89a2
-P
- BLL/Mapping/AutomapperProfile.cs,5\e\5ebb10e5ced1a66e7340709b3d69c9fde4a00c8d

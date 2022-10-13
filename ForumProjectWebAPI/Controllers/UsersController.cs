@@ -24,8 +24,7 @@ namespace ForumProjectWebAPI.Controllers
         private readonly IUserService _userService;
         private readonly ILogger<UsersController> _logger;
         
-        public UsersController(ILogger<UsersController> logger, IUserService userService,
-            IOptionsMonitor<JwtConfig> optionsMonitor)
+        public UsersController(ILogger<UsersController> logger, IUserService userService)
         {
             _userService = userService;
             _logger = logger;
@@ -153,5 +152,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        
+        
     }
 }
