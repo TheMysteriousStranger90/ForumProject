@@ -9,8 +9,6 @@ b
 2DAL/Migrations/ForumProjectContextModelSnapshot.cs,3\7\372ebce659bd915f8793c231eefa0e22576adb00
 g
 7DAL/Migrations/20221004061720_InitialCreate.Designer.cs,c\6\c6d7ba0f97b4b671f0002423e5dd03ce78b705f8
-F
-BLL/DTO/CategoryDTO.cs,c\b\cb2751b85abc929920e5cbdde0f15b929deda110
 E
 BLL/DTO/MessageDTO.cs,7\7\772138d156fe9505bb8a2bd075671c74e97aea40
 [
@@ -25,8 +23,6 @@ G
 DAL/Entities/Message.cs,c\b\cb1c949a82f60f585171e5441bdbe7fc54028484
 Z
 *DAL/Configurations/MessageConfiguration.cs,3\5\35929aba4da97fa653ede0ee3aec0468fa05ac6f
-H
-DAL/Entities/Category.cs,b\f\bf4d408d3538814acf7bbf57760dc6311f647cb1
 J
 DAL/Entities/BaseEntity.cs,8\6\86dc7ca9cc13a45737b8b6723bb0bb7255762fb3
 D
@@ -47,8 +43,6 @@ S
 #BLL/Exceptions/NotFoundException.cs,e\6\e67e6ea5b9019331b0526d0f4a98ff7d5656d960
 X
 (BLL/Interfaces/IAuthenticationService.cs,b\8\b81ab1c7ec7c326b8e599b17bf92cbfb16b5cced
-M
-DAL/Interfaces/IRepository.cs,3\8\38526699bc8e0525f029605d4ff42db845ed3537
 W
 'BLL/Exceptions/ForumProjectException.cs,9\0\902be555eb430d992730ba365f13d6337014de15
 M
@@ -61,10 +55,6 @@ C
 BLL/DTO/TopicDTO.cs,f\1\f1bb26cd7cc187461c70eceb7348e7b864ba8518
 E
 DAL/Entities/Topic.cs,6\d\6ddde7e9e6d245ee16f3efe2de82310e5dd3bee0
-S
-#DAL/Repositories/TopicRepository.cs,a\8\a85e485bc65a19de1e92ccd2a47f224d661bca87
-U
-%DAL/Interfaces/ICategoryRepository.cs,6\0\604edf14abe607ad1b1115303b5426f1e84e6def
 R
 "DAL/Interfaces/ITopicRepository.cs,7\3\7377bf32a5ebe1e839203dd54ae45c1bb3559ede
 O
@@ -79,10 +69,6 @@ Q
 ,ForumProjectWebAPI/ForumProjectWebAPI.csproj,5\f\5f0982035ae6980617829b8ad9f34122c9d4e574
 >
 BLL/BLL.csproj,e\0\e0f4552e00511decec5f0d8b0bbde386377409da
-T
-$DAL/Interfaces/IMessageRepository.cs,f\4\f4c82552f572f5f8857ad7c70a2000abd121a623
-U
-%DAL/Repositories/MessageRepository.cs,5\5\55ae2098f8f31d2b2da2816c21ac1383d83da067
 N
 BLL/Services/MessageService.cs,1\f\1feb502e419911228f3979474775cea3de8dbeb5
 R
@@ -97,3 +83,29 @@ D
 BLL/DTO/SignUpDTO.cs,2\9\29fbfe5f331f306382f71c26311b4ee45ef5a876
 O
 DAL/Entities/Roles/RoleTypes.cs,3\e\3ee057ccfcd2e313fc6662306090888a670c89a2
+_
+/ForumProjectWebAPI/Helpers/JwtConfigurations.cs,6\6\665db0214a68c8b8953492467f0436d1673ad22f
+U
+%BLL/Services/AuthenticationService.cs,3\8\3849cd299b36a63eb9faf8caaea9ba97d3d6a0a9
+b
+2ForumProjectWebAPI/Helpers/SwaggerConfiguration.cs,f\7\f75649f8baaa4982adf12be45671c1b59f69062d
+K
+BLL/Services/UserService.cs,3\1\319ba5d6cf5f916390768b498a3a220c590d3989
+F
+BLL/DTO/UserRoleDTO.cs,3\6\367baca289bb1bf23a455d8c892925ab24db840e
+M
+ForumProjectWebAPI/Startup.cs,c\8\c846370cf1e6240e32bd79d5952e3b501e34dfcc
+P
+ BLL/Mapping/AutomapperProfile.cs,5\e\5ebb10e5ced1a66e7340709b3d69c9fde4a00c8d
+A
+DAL/UnitOfWork.cs,f\e\feb7f407c5c6b4029fff04b909732ab442a0ac24
+a
+1ForumProjectWebAPI/Controllers/UsersController.cs,b\2\b24b45231d4eed00ac460f7aac6e614427049169
+j
+:ForumProjectWebAPI/Controllers/AuthenticationController.cs,3\d\3d58ad1ad037bafc90083da21339b9d14b40ec33
+H
+DAL/Entities/Category.cs,b\f\bf4d408d3538814acf7bbf57760dc6311f647cb1
+U
+%DAL/Repositories/MessageRepository.cs,5\5\55ae2098f8f31d2b2da2816c21ac1383d83da067
+T
+$DAL/Interfaces/IMessageRepository.cs,f\4\f4c82552f572f5f8857ad7c70a2000abd121a623

@@ -10,35 +10,37 @@ namespace DAL.Repositories
     public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
     {
         protected readonly ForumProjectContext _context;
+        protected readonly DbSet<TEntity> _set;
 
         protected Repository(ForumProjectContext context)
         {
             _context = context;
+            _set = _context.Set<TEntity>();
         }
 
         public async Task<TEntity> GetByIdAsync(int id)
         {
-            return await _context.Set<TEntity>().FindAsync(id).AsTask();
+            return await _set.FindAsync(id).AsTask();
         }
 
         public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            return await _context.Set<TEntity>().AsNoTracking().ToListAsync();
+            return await _set.AsNoTracking().ToListAsync();
         }
 
         public async Task CreateAsync(TEntity entity)
         {
-            await _context.Set<TEntity>().AddAsync(entity);
+            await _set.AddAsync(entity);
         }
 
         public void Remove(TEntity entity)
         {
-            _context.Set<TEntity>().Remove(entity);
+            _set.Remove(entity);
         }
 
         public void Update(TEntity entity)
         {
-            _context.Set<TEntity>().Update(entity);
+            _set.Update(entity);
         }
     }
 }
