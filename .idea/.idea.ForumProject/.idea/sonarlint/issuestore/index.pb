@@ -10,8 +10,6 @@ b
 g
 7DAL/Migrations/20221004061720_InitialCreate.Designer.cs,c\6\c6d7ba0f97b4b671f0002423e5dd03ce78b705f8
 F
-BLL/DTO/UserRoleDTO.cs,3\6\367baca289bb1bf23a455d8c892925ab24db840e
-F
 BLL/DTO/CategoryDTO.cs,c\b\cb2751b85abc929920e5cbdde0f15b929deda110
 E
 BLL/DTO/MessageDTO.cs,7\7\772138d156fe9505bb8a2bd075671c74e97aea40
@@ -89,3 +87,23 @@ Q
 ,ForumProjectWebAPI/ForumProjectWebAPI.csproj,5\f\5f0982035ae6980617829b8ad9f34122c9d4e574
 >
 BLL/BLL.csproj,e\0\e0f4552e00511decec5f0d8b0bbde386377409da
+T
+$DAL/Interfaces/IMessageRepository.cs,f\4\f4c82552f572f5f8857ad7c70a2000abd121a623
+U
+%DAL/Repositories/MessageRepository.cs,5\5\55ae2098f8f31d2b2da2816c21ac1383d83da067
+N
+BLL/Services/MessageService.cs,1\f\1feb502e419911228f3979474775cea3de8dbeb5
+R
+"ForumProjectWebAPI/Logs/LogInfo.cs,1\0\102938538de6206a7ac37aa17d47fb1ce96e273a
+R
+"DAL/Context/ForumProjectContext.cs,d\5\d56bbe484e59efc23a2c2cdd2fa57afac6c14f6e
+l
+<ForumProjectWebAPI/Filters/CustomExceptionFilterAttribute.cs,0\0\000da007c7062de14c75d3115aa286132375350b
+m
+=ForumProjectWebAPI/Filters/ModelStateActionFilterAttribute.cs,b\d\bd325081a5a9c7f374263882f46aff30cee4e107
+D
+BLL/DTO/SignUpDTO.cs,2\9\29fbfe5f331f306382f71c26311b4ee45ef5a876
+O
+DAL/Entities/Roles/RoleTypes.cs,3\e\3ee057ccfcd2e313fc6662306090888a670c89a2
+P
+ BLL/Mapping/AutomapperProfile.cs,5\e\5ebb10e5ced1a66e7340709b3d69c9fde4a00c8d

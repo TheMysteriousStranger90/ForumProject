@@ -65,9 +65,6 @@ namespace ForumProjectWebAPI
             IMapper mapper = mapperConfig.CreateMapper();
             services.AddSingleton(mapper);
             
-            
-            
-            
             services.AddScoped<IAuthenticationService, AuthenticationService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ICategoryService, CategoryService>();
@@ -82,6 +79,7 @@ namespace ForumProjectWebAPI
                 options.Password.RequireUppercase = false;
                 options.Password.RequiredLength = 1;
             });
+            
             services.AddJwtBearerAuthentication(Configuration);
             
             services.AddControllers(options =>

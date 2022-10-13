@@ -5,9 +5,13 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="start UsersController...">
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/DTO/UserRoleDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/DTO/UserRoleDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/AuthenticationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/AuthenticationController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +94,8 @@
       <workItem from="1665132599498" duration="3682000" />
       <workItem from="1665298222972" duration="9065000" />
       <workItem from="1665461574887" duration="9235000" />
-      <workItem from="1665545456597" duration="14058000" />
+      <workItem from="1665545456597" duration="19607000" />
+      <workItem from="1665633523288" duration="2167000" />
     </task>
     <task id="LOCAL-00001" summary="Init...">
       <created>1664778882334</created>
@@ -421,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665558860486</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="...">
+      <created>1665561305672</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1665561305672</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +462,6 @@
     <MESSAGE value="maybe not..." />
     <MESSAGE value="add interfaces..." />
     <MESSAGE value="add Automapper..." />
-    <MESSAGE value="..." />
     <MESSAGE value="add services.AddScoped..." />
     <MESSAGE value="add config token..." />
     <MESSAGE value="add AuthenticationService..." />
@@ -468,6 +479,7 @@
     <MESSAGE value="add AuthenticationController" />
     <MESSAGE value="delete weather..." />
     <MESSAGE value="start UsersController..." />
-    <option name="LAST_COMMIT_MESSAGE" value="start UsersController..." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>

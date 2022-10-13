@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using BLL.DTO;
 using BLL.Injections;
 using BLL.Interfaces;
 using DAL.Entities.Roles;
@@ -22,15 +23,30 @@ namespace ForumProjectWebAPI.Controllers
     {
         private readonly IUserService _userService;
         private readonly ILogger<UsersController> _logger;
-        private readonly JwtConfig _jwtConfig;
-
-        public UsersController(ILogger<UsersController> logger, IUserService userService, IOptionsMonitor<JwtConfig> optionsMonitor)
+        
+        public UsersController(ILogger<UsersController> logger, IUserService userService,
+            IOptionsMonitor<JwtConfig> optionsMonitor)
         {
             _userService = userService;
             _logger = logger;
-            _jwtConfig = optionsMonitor.CurrentValue;
         }
-        
+
+        [HttpGet("GetAllUsers")]
+        [Authorize(Roles = RoleTypes.Admin)]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            try
+            {
+                var users = _userService.GetAllUsers();
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogInfoMethod(ex, _logger);
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpGet("GetUserById/{id}")]
         [Authorize(Roles = RoleTypes.Admin)]
         public async Task<IActionResult> GetUserById(int id)
@@ -39,7 +55,6 @@ namespace ForumProjectWebAPI.Controllers
             {
                 var user = await _userService.GetByIdAsync(id);
                 return Ok(user);
-                
             }
             catch (Exception ex)
             {
@@ -47,7 +62,80 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
+        [HttpGet("GetUserByEmail")]
+        [Authorize(Roles = RoleTypes.Admin)]
+        public async Task<IActionResult> GetUserByEmail(string email)
+        {
+            try
+            {
+                var user = await _userService.GetUserByEmailAsync(email);
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogInfoMethod(ex, _logger);
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("GetUserRoles")]
+        [Authorize(Roles = RoleTypes.Admin)]
+        public async Task<IActionResult> GetUserRoles(string email)
+        {
+            try
+            {
+                var result = await _userService.GetUserRoles(email);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogInfoMethod(ex, _logger);
+                return BadRequest(ex.Message);
+            }
+        }
+
+
+        [HttpPost("SetUserRole")]
+        [Authorize(Roles = RoleTypes.Admin)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        public async Task<IActionResult> SetUserRole(UserRoleDTO userRoleDTO)
+        {
+            try
+            {
+                var userId = Convert.ToInt32(User.FindFirstValue("UserId"));
+                await _userService.SetUserRoleAsync(userRoleDTO);
+
+                _logger.LogInformation("Admin with Id {UserId} changed role of user with id {Id} to {Role}",
+                    userId, userRoleDTO.Id, userRoleDTO.Role);
+                return StatusCode(StatusCodes.Status204NoContent);
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogInfoMethod(ex, _logger);
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut("UpdateUser")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        public async Task<IActionResult> UpdateUser(UserDTO userDTO)
+        {
+            try
+            {
+                var userId = Convert.ToInt32(User.FindFirstValue("UserId"));
+                await _userService.UpdateAsync(userDTO, userId);
+
+                _logger.LogInformation("User with Id {UserId} changed its profile successfully", userId);
+                return StatusCode(StatusCodes.Status204NoContent);
+            }
+            catch (Exception ex)
+            {
+                LogInfo.LogInfoMethod(ex, _logger);
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpDelete("{id:int}")]
         [Authorize(Roles = RoleTypes.Admin)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -58,7 +146,6 @@ namespace ForumProjectWebAPI.Controllers
                 await _userService.DeleteByIdAsync(id);
                 _logger.LogInformation("Admin removed user with id {Id} successfully", id);
                 return StatusCode(StatusCodes.Status204NoContent);
-                
             }
             catch (Exception ex)
             {
