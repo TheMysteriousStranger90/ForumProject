@@ -52,7 +52,8 @@ namespace BLL.Services
 
         public async Task UpdateAsync(CategoryDTO model, int id)
         {
-            var categoryUpdate = await _unitOfWork.CategoryRepository.GetByIdAsync(id);
+            if (id <= 0) throw new ForumProjectException("Value of id must be positive");
+            var categoryUpdate = await _unitOfWork.CategoryRepository.GetByIdAsync(model.Id);
 
             if (categoryUpdate == null) throw new NotFoundException("Category not found");
 

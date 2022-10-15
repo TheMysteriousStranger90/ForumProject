@@ -6,7 +6,7 @@ namespace BLL.Interfaces
 {
     public interface ITopicService
     {
-        Task<TopicDTO> CreateAsync(TopicDTO model);
+        Task<TopicDTO> CreateAsync(TopicCreateDTO model);
         Task<IEnumerable<TopicDTO>> GetAllTopics();
         Task<TopicDTO> GetByIdWithDetailsAsync(int id);
         Task<IEnumerable<TopicDTO>> GetAllWithDetailsAsync();
@@ -15,8 +15,5 @@ namespace BLL.Interfaces
         IEnumerable<TopicDTO> GetByCategoryId(int categoryId);
         Task UpdateAsync(TopicDTO model, int id);
         Task DeleteAsync(int id);
-
-        
-
     }
 }

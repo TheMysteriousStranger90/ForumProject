@@ -17,6 +17,7 @@ namespace BLL.Mapping
             CreateMap<Topic, TopicDTO>()
                 .ForMember(t => t.MessagesId, opt => opt.MapFrom(a => a.Messages.Select(x => x.Id)))
                 .ReverseMap();
+            CreateMap<Topic, TopicCreateDTO>().ReverseMap();
             CreateMap<Category, CategoryDTO>()
                 .ForMember(s => s.TopicsId, opt => opt.MapFrom(section => section.Topics.Select(t => t.Id)))
                 .ReverseMap();

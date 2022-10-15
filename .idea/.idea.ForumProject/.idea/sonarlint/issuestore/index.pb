@@ -73,8 +73,6 @@ E
 .DAL/Migrations/20221013095925_InitialCreate.cs,3\d\3d3d8bffde93da93d3fc4aa678a89520e1de9c48
 R
 "DAL/Context/ForumProjectContext.cs,d\5\d56bbe484e59efc23a2c2cdd2fa57afac6c14f6e
-R
-"DAL/Interfaces/ITopicRepository.cs,7\3\7377bf32a5ebe1e839203dd54ae45c1bb3559ede
 S
 #DAL/Repositories/TopicRepository.cs,a\8\a85e485bc65a19de1e92ccd2a47f224d661bca87
 U
@@ -83,8 +81,6 @@ M
 DAL/Interfaces/IUnitOfWork.cs,0\f\0f4ef9f6b16e95f2d1fed669290bd948a2b71bf8
 V
 &DAL/Repositories/CategoryRepository.cs,a\e\aead3d1bad1ffa404396edcaee6dd76b660e502c
-U
-%DAL/Interfaces/ICategoryRepository.cs,6\0\604edf14abe607ad1b1115303b5426f1e84e6def
 N
 DAL/Repositories/Repository.cs,c\7\c7cbba72e87a2f3648ad1b9678cae1a4e020d688
 M

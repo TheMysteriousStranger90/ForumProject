@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -21,15 +22,14 @@ namespace BLL.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<TopicDTO> CreateAsync(TopicDTO model)
+        public async Task<TopicDTO> CreateAsync(TopicCreateDTO model)
         {
             if (model == null) throw new NotFoundException("Topic can't be created");
 
             var topic = _mapper.Map<Topic>(model);
             await _unitOfWork.TopicRepository.CreateAsync(topic);
             await _unitOfWork.SaveAsync();
-            model.Id = topic.Id;
-            return model;
+            return _mapper.Map<TopicDTO>(topic);
         }
 
         public async Task<IEnumerable<TopicDTO>> GetAllTopics()
@@ -86,7 +86,8 @@ namespace BLL.Services
 
         public async Task UpdateAsync(TopicDTO model, int id)
         {
-            var topicUpdate = await _unitOfWork.TopicRepository.GetByIdAsync(id);
+            if (id <= 0) throw new ForumProjectException("Value of id must be positive");
+            var topicUpdate = await _unitOfWork.TopicRepository.GetByIdAsync(model.Id);
 
             if (topicUpdate == null) throw new NotFoundException("Topic not found");
 
