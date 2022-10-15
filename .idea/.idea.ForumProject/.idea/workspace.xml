@@ -5,17 +5,10 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="final CategoryController...">
-      <change afterPath="$PROJECT_DIR$/BLL/DTO/TopicCreateDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/TopicController.cs" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add TopicController and fix some problems with update...">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/7/6/7674ec22eff3844443888a5085b0f98dac0bc8c1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/DTO/CategoryCreateDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/DTO/CategoryCreateDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Mapping/AutomapperProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Mapping/AutomapperProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/CategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Services/TopicService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/TopicService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/CategoryController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/User/Desktop/ForumProject/BLL/Mapping/AutomapperProfile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/User/Desktop/ForumProject/BLL/Mapping/AutomapperProfile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -105,14 +99,7 @@
       <workItem from="1665633523288" duration="10447000" />
       <workItem from="1665652397046" duration="3653000" />
       <workItem from="1665658593403" duration="4089000" />
-      <workItem from="1665814455239" duration="11542000" />
-    </task>
-    <task id="LOCAL-00006" summary="add context and configurations...">
-      <created>1664788116083</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1664788116083</updated>
+      <workItem from="1665814455239" duration="12940000" />
     </task>
     <task id="LOCAL-00007" summary="fix...">
       <created>1664788340658</created>
@@ -450,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665817619085</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add TopicController and fix some problems with update...">
+      <created>1665827356792</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1665827356792</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +466,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add interfaces..." />
     <MESSAGE value="add Automapper..." />
     <MESSAGE value="add services.AddScoped..." />
     <MESSAGE value="add config token..." />
@@ -497,6 +490,7 @@
     <MESSAGE value="fix some problems..." />
     <MESSAGE value="fix again..." />
     <MESSAGE value="final CategoryController..." />
-    <option name="LAST_COMMIT_MESSAGE" value="final CategoryController..." />
+    <MESSAGE value="add TopicController and fix some problems with update..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add TopicController and fix some problems with update..." />
   </component>
 </project>

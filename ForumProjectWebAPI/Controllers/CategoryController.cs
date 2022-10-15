@@ -81,7 +81,7 @@ namespace ForumProjectWebAPI.Controllers
         }
 
         [HttpPut("UpdateCategory")]
-        //[Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
+        [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> UpdateCategory(CategoryDTO model)
         {

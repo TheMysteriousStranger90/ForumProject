@@ -1,8 +1,6 @@
 
 @
 ForumProject.sln,3\7\37b60b4b56a66cf07d71cb51f798c4d62735123e
-M
-ForumProjectWebAPI/Program.cs,7\6\7674ec22eff3844443888a5085b0f98dac0bc8c1
 S
 #ForumProjectWebAPI/appsettings.json,f\1\f1bf861a4627577cfef00066a2d8b1fed8b1ed8a
 W
@@ -39,8 +37,6 @@ U
 %BLL/Services/AuthenticationService.cs,3\8\3849cd299b36a63eb9faf8caaea9ba97d3d6a0a9
 b
 2ForumProjectWebAPI/Helpers/SwaggerConfiguration.cs,f\7\f75649f8baaa4982adf12be45671c1b59f69062d
-j
-:ForumProjectWebAPI/Controllers/AuthenticationController.cs,3\d\3d58ad1ad037bafc90083da21339b9d14b40ec33
 D
 DAL/Entities/User.cs,5\a\5a5e094cb4fb5c538afdbdc37bac769c6d03f905
 G
@@ -87,5 +83,3 @@ M
 DAL/Interfaces/IRepository.cs,3\8\38526699bc8e0525f029605d4ff42db845ed3537
 A
 DAL/UnitOfWork.cs,f\e\feb7f407c5c6b4029fff04b909732ab442a0ac24
-M
-ForumProjectWebAPI/Startup.cs,c\8\c846370cf1e6240e32bd79d5952e3b501e34dfcc
