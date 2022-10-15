@@ -13,7 +13,6 @@ using Microsoft.Extensions.Logging;
 
 namespace ForumProjectWebAPI.Controllers
 {
-    //need to fix...
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
@@ -64,7 +63,7 @@ namespace ForumProjectWebAPI.Controllers
         [HttpPost]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
-        public async Task<IActionResult> CreateCategory(CategoryDTO model)
+        public async Task<IActionResult> CreateCategory(CategoryCreateDTO model)
         {
             try
             {

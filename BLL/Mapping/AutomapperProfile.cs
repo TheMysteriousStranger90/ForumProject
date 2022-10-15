@@ -20,6 +20,7 @@ namespace BLL.Mapping
             CreateMap<Category, CategoryDTO>()
                 .ForMember(s => s.TopicsId, opt => opt.MapFrom(section => section.Topics.Select(t => t.Id)))
                 .ReverseMap();
+            CreateMap<Category, CategoryCreateDTO>().ReverseMap();
         }
     }
 }

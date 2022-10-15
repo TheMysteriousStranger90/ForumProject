@@ -6,7 +6,7 @@ namespace BLL.Interfaces
 {
     public interface ICategoryService
     {
-        Task<CategoryDTO> CreateAsync(CategoryDTO model);
+        Task<CategoryDTO> CreateAsync(CategoryCreateDTO model);
         Task<IEnumerable<CategoryDTO>> GetAllCategory();
         Task<CategoryDTO> GetByIdAsync(int id);
         Task UpdateAsync(CategoryDTO model, int id);

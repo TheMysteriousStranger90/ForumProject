@@ -22,15 +22,14 @@ namespace BLL.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<CategoryDTO> CreateAsync(CategoryDTO model)
+        public async Task<CategoryDTO> CreateAsync(CategoryCreateDTO model)
         {
             if (model == null) throw new NotFoundException("Category can't be created");
 
             var category = _mapper.Map<Category>(model);
             await _unitOfWork.CategoryRepository.CreateAsync(category);
             await _unitOfWork.SaveAsync();
-            model.Id = category.Id;
-            return model;
+            return _mapper.Map<CategoryDTO>(category);
         }
 
         public async Task<IEnumerable<CategoryDTO>> GetAllCategory()

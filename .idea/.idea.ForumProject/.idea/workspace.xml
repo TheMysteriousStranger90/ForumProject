@@ -6,19 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BLL/DTO/CategoryCreateDTO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL/Interfaces/ICategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/ICategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/IMessageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/IMessageService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/ITopicService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Mapping/AutomapperProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Mapping/AutomapperProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/CategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Services/MessageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/MessageService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Services/TopicService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/TopicService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +98,8 @@
       <workItem from="1665545456597" duration="19607000" />
       <workItem from="1665633523288" duration="10447000" />
       <workItem from="1665652397046" duration="3653000" />
-      <workItem from="1665658593403" duration="3325000" />
-    </task>
-    <task id="LOCAL-00004" summary="add interface IRepository...">
-      <created>1664781856080</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1664781856080</updated>
+      <workItem from="1665658593403" duration="4089000" />
+      <workItem from="1665814455239" duration="2194000" />
     </task>
     <task id="LOCAL-00005" summary="add other interfaces...">
       <created>1664783615717</created>
@@ -449,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665655293723</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="fix again...">
+      <created>1665662006731</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1665662006731</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +466,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add IUserService..." />
     <MESSAGE value="maybe not..." />
     <MESSAGE value="add interfaces..." />
     <MESSAGE value="add Automapper..." />
@@ -496,6 +490,7 @@
     <MESSAGE value="..." />
     <MESSAGE value="fix abstract class Repository..." />
     <MESSAGE value="fix some problems..." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some problems..." />
+    <MESSAGE value="fix again..." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix again..." />
   </component>
 </project>
