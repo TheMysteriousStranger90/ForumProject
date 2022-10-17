@@ -19,8 +19,6 @@ W
 'BLL/Exceptions/ForumProjectException.cs,9\0\902be555eb430d992730ba365f13d6337014de15
 >
 DAL/DAL.csproj,d\8\d86dd49581f2123b337954982c26d5b73551acad
-\
-,ForumProjectWebAPI/ForumProjectWebAPI.csproj,5\f\5f0982035ae6980617829b8ad9f34122c9d4e574
 >
 BLL/BLL.csproj,e\0\e0f4552e00511decec5f0d8b0bbde386377409da
 O
@@ -49,8 +47,6 @@ E
 DAL/Entities/Topic.cs,6\d\6ddde7e9e6d245ee16f3efe2de82310e5dd3bee0
 H
 DAL/Entities/Category.cs,b\f\bf4d408d3538814acf7bbf57760dc6311f647cb1
-b
-2DAL/Migrations/ForumProjectContextModelSnapshot.cs,3\7\372ebce659bd915f8793c231eefa0e22576adb00
 ^
 .DAL/Migrations/20221013095925_InitialCreate.cs,3\d\3d3d8bffde93da93d3fc4aa678a89520e1de9c48
 R
@@ -67,8 +63,6 @@ N
 BLL/Interfaces/IUserService.cs,3\d\3d4a76cf4c7f82ba65bb6cff63493364c56964c0
 K
 BLL/Services/UserService.cs,3\1\319ba5d6cf5f916390768b498a3a220c590d3989
-a
-1ForumProjectWebAPI/Controllers/UsersController.cs,b\2\b24b45231d4eed00ac460f7aac6e614427049169
 F
 BLL/DTO/UserRoleDTO.cs,3\6\367baca289bb1bf23a455d8c892925ab24db840e
 B

@@ -27,7 +27,7 @@ namespace ForumProjectWebAPI.Controllers
             _messageService = messageService;
             _logger = logger;
         }
-        
+
         [HttpGet("FindAllByUserId/{id}")]
         [Authorize]
         public IActionResult FindAllByUserId(int userId)
@@ -43,7 +43,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("FindByUserId/{id}")]
         [Authorize]
         public IActionResult FindByUserId(int userId)
@@ -59,7 +59,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("GetAllMessage")]
         [Authorize]
         public async Task<IActionResult> GetAllMessage()
@@ -75,7 +75,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("GetByTopicIdWithDetails")]
         [Authorize]
         public async Task<IActionResult> GetByTopicIdWithDetails(int topicId)
@@ -91,7 +91,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("GetMessageById/{id}")]
         [Authorize]
         public async Task<IActionResult> GetMessageById(int id)
@@ -107,7 +107,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpPost]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -127,7 +127,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpPut("UpdateMessage")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

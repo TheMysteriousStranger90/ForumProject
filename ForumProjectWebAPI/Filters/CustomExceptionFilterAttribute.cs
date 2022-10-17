@@ -6,7 +6,7 @@ namespace ForumProjectWebAPI.Filters
 {
     public class CustomExceptionFilterAttribute : Attribute, IExceptionFilter
     {
-        public  void OnException(ExceptionContext context)
+        public void OnException(ExceptionContext context)
         {
             string action = context.ActionDescriptor.DisplayName;
             string callStack = context.Exception.StackTrace;

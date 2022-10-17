@@ -27,9 +27,6 @@ namespace ForumProjectWebAPI.Helpers
                         Url = new Uri("https://bohdan-harabadzhyu-homepage.vercel.app"),
                     }
                 });
-                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                //c.IncludeXmlComments(xmlPath);
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
@@ -56,6 +53,11 @@ namespace ForumProjectWebAPI.Helpers
                         new List<string>()
                     }
                 });
+
+                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlFilePath = Path.Combine(AppContext.BaseDirectory, xmlFilename);
+                c.IncludeXmlComments(xmlFilePath);
+
             });
             return services;
         }

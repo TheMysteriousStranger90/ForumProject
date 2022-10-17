@@ -27,7 +27,7 @@ namespace ForumProjectWebAPI.Controllers
             _topicService = topicService;
             _logger = logger;
         }
-        
+
         [HttpGet("GetTopicByCategoryId/{id}")]
         [Authorize]
         public IActionResult GetTopicByCategoryId(int categoryId)
@@ -43,7 +43,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("GetTopicByUserId/{id}")]
         [Authorize]
         public IActionResult GetTopicByUserId(int userId)
@@ -59,7 +59,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("GetAllTopic")]
         [Authorize]
         public async Task<IActionResult> GetAllTopic()
@@ -75,7 +75,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("GetAllWithDetails")]
         [Authorize]
         public async Task<IActionResult> GetAllWithDetails()
@@ -91,7 +91,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("GetTopicById/{id}")]
         [Authorize]
         public async Task<IActionResult> GetTopicById(int id)
@@ -107,7 +107,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpGet("GetByIdWithDetails/{id}")]
         [Authorize]
         public async Task<IActionResult> GetByIdWithDetails(int id)
@@ -123,7 +123,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpPost]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -143,7 +143,7 @@ namespace ForumProjectWebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        
+
         [HttpPut("UpdateTopic")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

@@ -5,7 +5,26 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add MessageController..." />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add new migration...">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ForumProject/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ForumProject/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/2bfd3004-655d-48d2-9090-3fd5a1f88d2f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/77fa2dfb-c74c-484b-b73c-ecc1fa70c460.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/cd2ea338-908a-48eb-8389-2219db16ce5b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/e8532616-a8ad-43d1-ac6d-3f9443b2db49.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ForumProject/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ForumProject/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/forumproject.metadata.v5.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/forumproject.metadata.v5.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/forumproject.projects.v5.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/forumproject.projects.v5.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/AuthenticationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/AuthenticationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/MessageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/MessageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/TopicController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/TopicController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Filters/CustomExceptionFilterAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Filters/CustomExceptionFilterAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/ForumProjectWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/ForumProjectWebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Helpers/JwtConfigurations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Helpers/JwtConfigurations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Helpers/SwaggerConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Helpers/SwaggerConfiguration.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,14 +114,7 @@
       <workItem from="1665652397046" duration="3653000" />
       <workItem from="1665658593403" duration="4089000" />
       <workItem from="1665814455239" duration="14036000" />
-      <workItem from="1665979958156" duration="3365000" />
-    </task>
-    <task id="LOCAL-00009" summary="add RoleTypes...">
-      <created>1664798445275</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1664798445275</updated>
+      <workItem from="1665979958156" duration="9542000" />
     </task>
     <task id="LOCAL-00010" summary="fix...">
       <created>1664798495799</created>
@@ -440,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665984690860</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add new migration...">
+      <created>1665985013069</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1665985013069</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +481,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add services.AddScoped..." />
     <MESSAGE value="add config token..." />
     <MESSAGE value="add AuthenticationService..." />
     <MESSAGE value="add UserService..." />
@@ -487,6 +505,7 @@
     <MESSAGE value="add TopicController and fix some problems with update..." />
     <MESSAGE value="..." />
     <MESSAGE value="add MessageController..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add MessageController..." />
+    <MESSAGE value="add new migration..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add new migration..." />
   </component>
 </project>

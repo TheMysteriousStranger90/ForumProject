@@ -26,6 +26,12 @@ namespace ForumProjectWebAPI.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Authentication a user by provided credentials
+        /// </summary>
+        /// <param name="loginDTO"></param>
+        /// <returns>Session information, including access token</returns>
+        /// <response code="200">Successfully authenticated</response>
         [HttpPost("Login")]
         [AllowAnonymous]
         public async Task<ActionResult> Login(LoginDTO loginDTO)
@@ -43,7 +49,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
-
+        /// <summary>
+        /// Register a new user
+        /// </summary>
+        /// <param name="signUpDTO"></param>
+        /// <returns>Return nothing, your registration is successful</returns>
+        /// <response code="204">Return nothing</response>
         [HttpPost("Registration")]
         [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

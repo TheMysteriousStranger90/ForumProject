@@ -12,7 +12,8 @@ namespace ForumProjectWebAPI.Helpers
 {
     public static class JwtConfigurations
     {
-        public static IServiceCollection AddJwtBearerAuthentication(this IServiceCollection services, IConfiguration Configuration)
+        public static IServiceCollection AddJwtBearerAuthentication(this IServiceCollection services,
+            IConfiguration Configuration)
         {
             services.AddAuthentication(options =>
                 {
