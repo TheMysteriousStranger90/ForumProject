@@ -80,7 +80,7 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreateTime = new DateTime(2022, 10, 16, 12, 59, 24, 878, DateTimeKind.Local).AddTicks(5792),
+                            CreateTime = new DateTime(2022, 10, 20, 8, 34, 19, 727, DateTimeKind.Local).AddTicks(7165),
                             Text = "The Include() method works quite well for Lists on objects. But what if I need to go two levels deep? Can I do an Include() on that property as well? Or how can I get that property to fully load?",
                             TopicId = 1,
                             UserId = 2
@@ -88,7 +88,7 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreateTime = new DateTime(2022, 10, 17, 12, 59, 24, 878, DateTimeKind.Local).AddTicks(6562),
+                            CreateTime = new DateTime(2022, 10, 21, 8, 34, 19, 727, DateTimeKind.Local).AddTicks(8155),
                             Text = "Make sure to add using System.Data.Entity; to get the version of Include that takes in a lambda.",
                             TopicId = 1,
                             UserId = 3
@@ -129,7 +129,7 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreateTime = new DateTime(2022, 10, 15, 12, 59, 24, 872, DateTimeKind.Local).AddTicks(6322),
+                            CreateTime = new DateTime(2022, 10, 19, 8, 34, 19, 721, DateTimeKind.Local).AddTicks(4932),
                             Title = "Entity Framework",
                             UserId = 2
                         });
@@ -216,7 +216,7 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "513974c5-cbc3-40e9-8d2d-cbe198803827",
+                            ConcurrencyStamp = "37618f5e-53d7-4075-9098-805b43539786",
                             Email = "lev.myshkin@outlook.com",
                             EmailConfirmed = true,
                             FirstName = "Lev",
@@ -224,9 +224,9 @@ namespace DAL.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "LEV.MYSHKIN@OUTLOOK.COM",
                             NormalizedUserName = "LEVMYSHKIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAECk/pTbi9tbxfs8yDA/9euPRGYIMjEAX3NYidI0poeOzOy8txwuVnG61xMDDiz/Ujg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELuILxAt+tKuJfBfPB5HpZCAoIaev073BhQR3VLSzQkJArwX5WXNulFSPeUMldJ1iA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "45fa7951-59bd-4b7d-bcac-4ba10a8d7942",
+                            SecurityStamp = "2673ee9c-290c-4527-b5b0-6d8fabe884ee",
                             TwoFactorEnabled = false,
                             UserName = "LevMyshkin"
                         },
@@ -234,7 +234,7 @@ namespace DAL.Migrations
                         {
                             Id = 2,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bf3c17fc-7aa5-4fce-87cc-5ba8199236d3",
+                            ConcurrencyStamp = "097ece56-d847-4974-aa88-728027e36648",
                             Email = "rodion.raskolnikov@yandex.ru",
                             EmailConfirmed = true,
                             FirstName = "Rodion",
@@ -242,9 +242,9 @@ namespace DAL.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "RODION.RASKOLNIKOV@YANDEX.RU",
                             NormalizedUserName = "RODIONRASKOLNIKOV",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJAhMfKpLdYLRSvzQXaK6u8LDg1mJHWBNOXsZ8eVdZ4vnyyXHOVsF6Z15eaKBhR+Eg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEP/XwRg+KaR3nGhp6/yTC1nP6tdLDyFYgO0TM97vyuUqbhTUfBohRnYzfl1rLPj3VQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f9aedc3e-defe-40be-b7d9-dcf065295213",
+                            SecurityStamp = "a8481201-5c8e-4035-9473-b189665a68c3",
                             TwoFactorEnabled = false,
                             UserName = "RodionRaskolnikov"
                         },
@@ -252,7 +252,7 @@ namespace DAL.Migrations
                         {
                             Id = 3,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "92234d08-9021-4e55-aae3-8c41d95a3110",
+                            ConcurrencyStamp = "7992e128-b9ad-4d3e-a865-3f02ce0d65e0",
                             Email = "george.winterbourne@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "George",
@@ -260,9 +260,9 @@ namespace DAL.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "GEORGE.WINTERBOURNE@GMAIL.COM",
                             NormalizedUserName = "GEORGEWINTERBOURNE",
-                            PasswordHash = "AQAAAAEAACcQAAAAELJ6I++2nnjrIzt9UweW7LydSb+rtkc+H1yrV9FYFgMJSHFk7vpByTBTTwIpjxCK2Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEFYagcn+zoWHubmnnbfM/1Lyk0qlU66Kb4OLSjHjTF+n2b8Aa2rNzw0pBMENwyuEQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "15455bd2-b117-41bf-b53b-ff52707d738b",
+                            SecurityStamp = "1b9c3a68-569e-4709-8b8d-97519b889ba4",
                             TwoFactorEnabled = false,
                             UserName = "GeorgeWinterbourne"
                         });
@@ -300,21 +300,21 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "309eff85-0448-48e8-8355-183b29fa4126",
+                            ConcurrencyStamp = "e83dd276-9bbd-4fc3-86c7-9a77fc9458d5",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "163625f5-c162-4588-b5a4-708a5c3dd7f5",
+                            ConcurrencyStamp = "1273c52c-10f8-4ac2-bfea-dd01729d1fce",
                             Name = "Moderator",
                             NormalizedName = "MODERATOR"
                         },
                         new
                         {
                             Id = 3,
-                            ConcurrencyStamp = "3182c44b-da95-4f2c-988f-fe1f7f22a12d",
+                            ConcurrencyStamp = "976714c4-1fe1-4959-bf77-88483727b75c",
                             Name = "User",
                             NormalizedName = "USER"
                         });

@@ -230,9 +230,9 @@ namespace DAL.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { 1, "309eff85-0448-48e8-8355-183b29fa4126", "Admin", "ADMIN" },
-                    { 2, "163625f5-c162-4588-b5a4-708a5c3dd7f5", "Moderator", "MODERATOR" },
-                    { 3, "3182c44b-da95-4f2c-988f-fe1f7f22a12d", "User", "USER" }
+                    { 1, "e83dd276-9bbd-4fc3-86c7-9a77fc9458d5", "Admin", "ADMIN" },
+                    { 2, "1273c52c-10f8-4ac2-bfea-dd01729d1fce", "Moderator", "MODERATOR" },
+                    { 3, "976714c4-1fe1-4959-bf77-88483727b75c", "User", "USER" }
                 });
 
             migrationBuilder.InsertData(
@@ -240,9 +240,9 @@ namespace DAL.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { 1, 0, "513974c5-cbc3-40e9-8d2d-cbe198803827", "lev.myshkin@outlook.com", true, "Lev", "Myshkin", false, null, "LEV.MYSHKIN@OUTLOOK.COM", "LEVMYSHKIN", "AQAAAAEAACcQAAAAECk/pTbi9tbxfs8yDA/9euPRGYIMjEAX3NYidI0poeOzOy8txwuVnG61xMDDiz/Ujg==", null, false, "45fa7951-59bd-4b7d-bcac-4ba10a8d7942", false, "LevMyshkin" },
-                    { 2, 0, "bf3c17fc-7aa5-4fce-87cc-5ba8199236d3", "rodion.raskolnikov@yandex.ru", true, "Rodion", "Raskolnikov", false, null, "RODION.RASKOLNIKOV@YANDEX.RU", "RODIONRASKOLNIKOV", "AQAAAAEAACcQAAAAEJAhMfKpLdYLRSvzQXaK6u8LDg1mJHWBNOXsZ8eVdZ4vnyyXHOVsF6Z15eaKBhR+Eg==", null, false, "f9aedc3e-defe-40be-b7d9-dcf065295213", false, "RodionRaskolnikov" },
-                    { 3, 0, "92234d08-9021-4e55-aae3-8c41d95a3110", "george.winterbourne@gmail.com", true, "George", "Winterbourne", false, null, "GEORGE.WINTERBOURNE@GMAIL.COM", "GEORGEWINTERBOURNE", "AQAAAAEAACcQAAAAELJ6I++2nnjrIzt9UweW7LydSb+rtkc+H1yrV9FYFgMJSHFk7vpByTBTTwIpjxCK2Q==", null, false, "15455bd2-b117-41bf-b53b-ff52707d738b", false, "GeorgeWinterbourne" }
+                    { 1, 0, "37618f5e-53d7-4075-9098-805b43539786", "lev.myshkin@outlook.com", true, "Lev", "Myshkin", false, null, "LEV.MYSHKIN@OUTLOOK.COM", "LEVMYSHKIN", "AQAAAAEAACcQAAAAELuILxAt+tKuJfBfPB5HpZCAoIaev073BhQR3VLSzQkJArwX5WXNulFSPeUMldJ1iA==", null, false, "2673ee9c-290c-4527-b5b0-6d8fabe884ee", false, "LevMyshkin" },
+                    { 2, 0, "097ece56-d847-4974-aa88-728027e36648", "rodion.raskolnikov@yandex.ru", true, "Rodion", "Raskolnikov", false, null, "RODION.RASKOLNIKOV@YANDEX.RU", "RODIONRASKOLNIKOV", "AQAAAAEAACcQAAAAEP/XwRg+KaR3nGhp6/yTC1nP6tdLDyFYgO0TM97vyuUqbhTUfBohRnYzfl1rLPj3VQ==", null, false, "a8481201-5c8e-4035-9473-b189665a68c3", false, "RodionRaskolnikov" },
+                    { 3, 0, "7992e128-b9ad-4d3e-a865-3f02ce0d65e0", "george.winterbourne@gmail.com", true, "George", "Winterbourne", false, null, "GEORGE.WINTERBOURNE@GMAIL.COM", "GEORGEWINTERBOURNE", "AQAAAAEAACcQAAAAEEFYagcn+zoWHubmnnbfM/1Lyk0qlU66Kb4OLSjHjTF+n2b8Aa2rNzw0pBMENwyuEQ==", null, false, "1b9c3a68-569e-4709-8b8d-97519b889ba4", false, "GeorgeWinterbourne" }
                 });
 
             migrationBuilder.InsertData(
@@ -267,17 +267,17 @@ namespace DAL.Migrations
             migrationBuilder.InsertData(
                 table: "Topics",
                 columns: new[] { "Id", "CategoryId", "CreateTime", "Title", "UserId" },
-                values: new object[] { 1, 1, new DateTime(2022, 10, 15, 12, 59, 24, 872, DateTimeKind.Local).AddTicks(6322), "Entity Framework", 2 });
+                values: new object[] { 1, 1, new DateTime(2022, 10, 19, 8, 34, 19, 721, DateTimeKind.Local).AddTicks(4932), "Entity Framework", 2 });
 
             migrationBuilder.InsertData(
                 table: "Messages",
                 columns: new[] { "Id", "CreateTime", "Text", "TopicId", "UserId" },
-                values: new object[] { 1, new DateTime(2022, 10, 16, 12, 59, 24, 878, DateTimeKind.Local).AddTicks(5792), "The Include() method works quite well for Lists on objects. But what if I need to go two levels deep? Can I do an Include() on that property as well? Or how can I get that property to fully load?", 1, 2 });
+                values: new object[] { 1, new DateTime(2022, 10, 20, 8, 34, 19, 727, DateTimeKind.Local).AddTicks(7165), "The Include() method works quite well for Lists on objects. But what if I need to go two levels deep? Can I do an Include() on that property as well? Or how can I get that property to fully load?", 1, 2 });
 
             migrationBuilder.InsertData(
                 table: "Messages",
                 columns: new[] { "Id", "CreateTime", "Text", "TopicId", "UserId" },
-                values: new object[] { 2, new DateTime(2022, 10, 17, 12, 59, 24, 878, DateTimeKind.Local).AddTicks(6562), "Make sure to add using System.Data.Entity; to get the version of Include that takes in a lambda.", 1, 3 });
+                values: new object[] { 2, new DateTime(2022, 10, 21, 8, 34, 19, 727, DateTimeKind.Local).AddTicks(8155), "Make sure to add using System.Data.Entity; to get the version of Include that takes in a lambda.", 1, 3 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
