@@ -13,6 +13,9 @@ using Microsoft.Extensions.Logging;
 
 namespace ForumProjectWebAPI.Controllers
 {
+    /// <summary>
+    /// Topic controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
@@ -28,6 +31,11 @@ namespace ForumProjectWebAPI.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get topics by category id
+        /// </summary>
+        /// <param name="categoryId"></param>
+        /// <returns>Return all topics by category id</returns>
         [HttpGet("GetTopicByCategoryId/{id}")]
         [Authorize]
         public IActionResult GetTopicByCategoryId(int categoryId)
@@ -44,6 +52,11 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get topics by user id
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns>Return all topics by user id</returns>
         [HttpGet("GetTopicByUserId/{id}")]
         [Authorize]
         public IActionResult GetTopicByUserId(int userId)
@@ -60,6 +73,10 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get all topics
+        /// </summary>
+        /// <returns>Return all topics</returns>
         [HttpGet("GetAllTopic")]
         [Authorize]
         public async Task<IActionResult> GetAllTopic()
@@ -76,6 +93,10 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get all topics with details
+        /// </summary>
+        /// <returns>Return all topics with details</returns>
         [HttpGet("GetAllWithDetails")]
         [Authorize]
         public async Task<IActionResult> GetAllWithDetails()
@@ -92,6 +113,11 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get a topic by id
+        /// </summary>
+        /// <param name="id">Id of the topic to be retrieved</param>
+        /// <returns>The topic specified by <paramref name="id"/></returns>
         [HttpGet("GetTopicById/{id}")]
         [Authorize]
         public async Task<IActionResult> GetTopicById(int id)
@@ -108,6 +134,11 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get a topic with details by id
+        /// </summary>
+        /// <param name="id">Id of the topic to be retrieved</param>
+        /// <returns>The topic with details specified by <paramref name="id"/></returns>
         [HttpGet("GetByIdWithDetails/{id}")]
         [Authorize]
         public async Task<IActionResult> GetByIdWithDetails(int id)
@@ -124,6 +155,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Create new topic
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns>Newly created topic</returns>
+        /// <response code="201">Returns the newly created topic</response>
         [HttpPost]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -144,6 +181,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// This method updates information by topic
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns>Update</returns>
+        /// <response code="204">Return nothing, topic has been updated</response>
         [HttpPut("UpdateTopic")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -165,6 +208,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Delete the topic
+        /// </summary>
+        /// <param name="id">ID of the topic to be deleted</param>
+        /// <returns>Delete</returns>
+        /// <response code="204">Topic has been deleted</response>
         [HttpDelete("{id:int}")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

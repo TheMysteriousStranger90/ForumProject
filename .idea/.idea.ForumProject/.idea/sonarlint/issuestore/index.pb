@@ -57,8 +57,6 @@ V
 &DAL/Repositories/CategoryRepository.cs,a\e\aead3d1bad1ffa404396edcaee6dd76b660e502c
 M
 DAL/Interfaces/IRepository.cs,3\8\38526699bc8e0525f029605d4ff42db845ed3537
-A
-DAL/UnitOfWork.cs,f\e\feb7f407c5c6b4029fff04b909732ab442a0ac24
 N
 BLL/Interfaces/IUserService.cs,3\d\3d4a76cf4c7f82ba65bb6cff63493364c56964c0
 K

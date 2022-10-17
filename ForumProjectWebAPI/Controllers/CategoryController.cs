@@ -13,6 +13,9 @@ using Microsoft.Extensions.Logging;
 
 namespace ForumProjectWebAPI.Controllers
 {
+    /// <summary>
+    /// Category controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
@@ -28,6 +31,10 @@ namespace ForumProjectWebAPI.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get all category
+        /// </summary>
+        /// <returns>Return all categories</returns>
         [HttpGet("GetAllCategory")]
         [Authorize]
         public async Task<IActionResult> GetAllCategory()
@@ -44,6 +51,11 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get a category by id
+        /// </summary>
+        /// <param name="id">Id of the category to be retrieved</param>
+        /// <returns>The category specified by <paramref name="id"/></returns>
         [HttpGet("GetCategoryById/{id}")]
         [Authorize]
         public async Task<IActionResult> GetCategoryById(int id)
@@ -60,6 +72,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Create new category
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns>Newly created category</returns>
+        /// <response code="201">Returns the newly created category</response>
         [HttpPost]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -80,6 +98,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// This method updates information by category
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns>Update</returns>
+        /// <response code="204">Return nothing, category has been updated</response>
         [HttpPut("UpdateCategory")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -101,6 +125,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Delete the category
+        /// </summary>
+        /// <param name="id">ID of the category to be deleted</param>
+        /// <returns>Delete</returns>
+        /// <response code="204">Category has been deleted</response>
         [HttpDelete("{id:int}")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

@@ -12,6 +12,9 @@ using Microsoft.Extensions.Logging;
 
 namespace ForumProjectWebAPI.Controllers
 {
+    /// <summary>
+    /// Authentication controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     [ModelStateActionFilter]
@@ -19,8 +22,9 @@ namespace ForumProjectWebAPI.Controllers
     {
         private readonly IAuthenticationService _authenticationService;
         private readonly ILogger<AuthenticationController> _logger;
-        
-        public AuthenticationController(ILogger<AuthenticationController> logger, IAuthenticationService authenticationService)
+
+        public AuthenticationController(ILogger<AuthenticationController> logger,
+            IAuthenticationService authenticationService)
         {
             _authenticationService = authenticationService;
             _logger = logger;
@@ -65,7 +69,6 @@ namespace ForumProjectWebAPI.Controllers
                 await _authenticationService.SignUpAsync(signUpDTO);
                 _logger.LogInformation("User with email {Email} signed up successfully", signUpDTO.Email);
                 return StatusCode(StatusCodes.Status204NoContent);
-                
             }
             catch (Exception ex)
             {

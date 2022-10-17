@@ -16,6 +16,9 @@ using Microsoft.Extensions.Options;
 
 namespace ForumProjectWebAPI.Controllers
 {
+    /// <summary>
+    /// Users controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     [ModelStateActionFilter]

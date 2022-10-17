@@ -13,6 +13,9 @@ using Microsoft.Extensions.Logging;
 
 namespace ForumProjectWebAPI.Controllers
 {
+    /// <summary>
+    /// Message controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
@@ -28,6 +31,11 @@ namespace ForumProjectWebAPI.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get all messages by user id
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns>Return all messages by user id</returns>
         [HttpGet("FindAllByUserId/{id}")]
         [Authorize]
         public IActionResult FindAllByUserId(int userId)
@@ -44,6 +52,11 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get messages by user id
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns>Again! Return all messages by user id</returns>
         [HttpGet("FindByUserId/{id}")]
         [Authorize]
         public IActionResult FindByUserId(int userId)
@@ -60,6 +73,10 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get all messages
+        /// </summary>
+        /// <returns>Return all messages</returns>
         [HttpGet("GetAllMessage")]
         [Authorize]
         public async Task<IActionResult> GetAllMessage()
@@ -76,6 +93,11 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get a messages with details by topic id
+        /// </summary>
+        /// <param name="topicId"></param>
+        /// <returns>The messages with details specified by topic<paramref name="topicId"/></returns>
         [HttpGet("GetByTopicIdWithDetails")]
         [Authorize]
         public async Task<IActionResult> GetByTopicIdWithDetails(int topicId)
@@ -92,6 +114,11 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get a message by id
+        /// </summary>
+        /// <param name="id">Id of the message to be retrieved</param>
+        /// <returns>The message specified by <paramref name="id"/></returns>
         [HttpGet("GetMessageById/{id}")]
         [Authorize]
         public async Task<IActionResult> GetMessageById(int id)
@@ -108,6 +135,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Create new message
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns>Newly created message</returns>
+        /// <response code="201">Returns the newly created message</response>
         [HttpPost]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -128,6 +161,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// This method updates information by message
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns>Update</returns>
+        /// <response code="204">Return nothing, message has been updated</response>
         [HttpPut("UpdateMessage")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -149,6 +188,12 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Delete the message
+        /// </summary>
+        /// <param name="id">ID of the message to be deleted</param>
+        /// <returns>Delete</returns>
+        /// <response code="204">Message has been deleted</response>
         [HttpDelete("{id:int}")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
