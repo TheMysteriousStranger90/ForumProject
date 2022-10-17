@@ -5,19 +5,20 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="add TopicController and fix some problems with update...">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/7/6/7674ec22eff3844443888a5085b0f98dac0bc8c1" beforeDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BLL/DTO/MessageCreateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/MessageController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Interfaces/IMessageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Interfaces/IMessageService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Mapping/AutomapperProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Mapping/AutomapperProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/Services/MessageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/Services/MessageService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/TopicController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/TopicController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/User/Desktop/ForumProject/BLL/Mapping/AutomapperProfile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/User/Desktop/ForumProject/BLL/Mapping/AutomapperProfile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -99,14 +100,8 @@
       <workItem from="1665633523288" duration="10447000" />
       <workItem from="1665652397046" duration="3653000" />
       <workItem from="1665658593403" duration="4089000" />
-      <workItem from="1665814455239" duration="12940000" />
-    </task>
-    <task id="LOCAL-00007" summary="fix...">
-      <created>1664788340658</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1664788340658</updated>
+      <workItem from="1665814455239" duration="14036000" />
+      <workItem from="1665979958156" duration="3101000" />
     </task>
     <task id="LOCAL-00008" summary="add Repository...">
       <created>1664797497930</created>
@@ -444,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665827356792</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="...">
+      <created>1665829814105</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1665829814105</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,12 +487,12 @@
     <MESSAGE value="delete weather..." />
     <MESSAGE value="start UsersController..." />
     <MESSAGE value="add auth and users controller..." />
-    <MESSAGE value="..." />
     <MESSAGE value="fix abstract class Repository..." />
     <MESSAGE value="fix some problems..." />
     <MESSAGE value="fix again..." />
     <MESSAGE value="final CategoryController..." />
     <MESSAGE value="add TopicController and fix some problems with update..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add TopicController and fix some problems with update..." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>

@@ -8,14 +8,13 @@ namespace BLL.Interfaces
 {
     public interface IMessageService
     {
-        Task<MessageDTO> CreateAsync(MessageDTO model);
+        Task<MessageDTO> CreateAsync(MessageCreateDTO model);
         Task<IEnumerable<MessageDTO>> GetAllMessages();
         Task<MessageDTO> GetByIdAsync(int id);
         IEnumerable<MessageDTO> FindAllByUserId(int userId);
         IEnumerable<MessageDTO> FindByUserId(int userId);
         Task UpdateAsync(MessageDTO model, int id);
         Task DeleteAsync(int id);
-        
         Task<IEnumerable<MessageDTO>> GetByTopicIdWithDetailsAsync(int topicId);
     }
 }

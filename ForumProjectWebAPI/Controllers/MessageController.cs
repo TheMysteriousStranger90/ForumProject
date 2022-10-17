@@ -17,25 +17,25 @@ namespace ForumProjectWebAPI.Controllers
     [ApiController]
     [Authorize]
     [ModelStateActionFilter]
-    public class TopicController : ControllerBase
+    public class MessageController : ControllerBase
     {
-        private readonly ITopicService _topicService;
-        private readonly ILogger<TopicController> _logger;
+        private readonly IMessageService _messageService;
+        private readonly ILogger<MessageController> _logger;
 
-        public TopicController(ITopicService topicService, ILogger<TopicController> logger)
+        public MessageController(IMessageService messageService, ILogger<MessageController> logger)
         {
-            _topicService = topicService;
+            _messageService = messageService;
             _logger = logger;
         }
         
-        [HttpGet("GetTopicByCategoryId/{id}")]
+        [HttpGet("FindAllByUserId/{id}")]
         [Authorize]
-        public IActionResult GetTopicByCategoryId(int categoryId)
+        public IActionResult FindAllByUserId(int userId)
         {
             try
             {
-                var topic = _topicService.GetByCategoryId(categoryId);
-                return Ok(topic);
+                var messages = _messageService.FindAllByUserId(userId);
+                return Ok(messages);
             }
             catch (Exception ex)
             {
@@ -44,14 +44,14 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
         
-        [HttpGet("GetTopicByUserId/{id}")]
+        [HttpGet("FindByUserId/{id}")]
         [Authorize]
-        public IActionResult GetTopicByUserId(int userId)
+        public IActionResult FindByUserId(int userId)
         {
             try
             {
-                var topic = _topicService.GetByUserId(userId);
-                return Ok(topic);
+                var messages = _messageService.FindByUserId(userId);
+                return Ok(messages);
             }
             catch (Exception ex)
             {
@@ -60,14 +60,14 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
         
-        [HttpGet("GetAllTopic")]
+        [HttpGet("GetAllMessage")]
         [Authorize]
-        public async Task<IActionResult> GetAllTopic()
+        public async Task<IActionResult> GetAllMessage()
         {
             try
             {
-                var topics = await _topicService.GetAllTopics();
-                return Ok(topics);
+                var messages = await _messageService.GetAllMessages();
+                return Ok(messages);
             }
             catch (Exception ex)
             {
@@ -76,14 +76,14 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
         
-        [HttpGet("GetAllWithDetails")]
+        [HttpGet("GetByTopicIdWithDetails")]
         [Authorize]
-        public async Task<IActionResult> GetAllWithDetails()
+        public async Task<IActionResult> GetByTopicIdWithDetails(int topicId)
         {
             try
             {
-                var topics = await _topicService.GetAllWithDetailsAsync();
-                return Ok(topics);
+                var messages = await _messageService.GetByTopicIdWithDetailsAsync(topicId);
+                return Ok(messages);
             }
             catch (Exception ex)
             {
@@ -92,30 +92,14 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
         
-        [HttpGet("GetTopicById/{id}")]
+        [HttpGet("GetMessageById/{id}")]
         [Authorize]
-        public async Task<IActionResult> GetTopicById(int id)
+        public async Task<IActionResult> GetMessageById(int id)
         {
             try
             {
-                var topic = await _topicService.GetByIdAsync(id);
-                return Ok(topic);
-            }
-            catch (Exception ex)
-            {
-                LogInfo.LogInfoMethod(ex, _logger);
-                return BadRequest(ex.Message);
-            }
-        }
-        
-        [HttpGet("GetByIdWithDetails/{id}")]
-        [Authorize]
-        public async Task<IActionResult> GetByIdWithDetails(int id)
-        {
-            try
-            {
-                var topic = await _topicService.GetByIdWithDetailsAsync(id);
-                return Ok(topic);
+                var message = await _messageService.GetByIdAsync(id);
+                return Ok(message);
             }
             catch (Exception ex)
             {
@@ -127,15 +111,15 @@ namespace ForumProjectWebAPI.Controllers
         [HttpPost]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status201Created)]
-        public async Task<IActionResult> CreateTopic(TopicCreateDTO model)
+        public async Task<IActionResult> CreateMessage(MessageCreateDTO model)
         {
             try
             {
-                var createdTopic = await _topicService.CreateAsync(model);
-                _logger.LogInformation("Created topic with id {TopicId}",
-                    createdTopic.Id);
+                var createdMessage = await _messageService.CreateAsync(model);
+                _logger.LogInformation("Created message with id {MessageId}",
+                    createdMessage.Id);
 
-                return CreatedAtAction(nameof(GetTopicById), new { id = createdTopic.Id }, createdTopic);
+                return CreatedAtAction(nameof(GetMessageById), new { id = createdMessage.Id }, createdMessage);
             }
             catch (Exception ex)
             {
@@ -144,16 +128,16 @@ namespace ForumProjectWebAPI.Controllers
             }
         }
         
-        [HttpPut("UpdateTopic")]
+        [HttpPut("UpdateMessage")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
-        public async Task<IActionResult> UpdateTopic(TopicDTO model)
+        public async Task<IActionResult> UpdateMessage(MessageDTO model)
         {
             try
             {
                 var userId = Convert.ToInt32(User.FindFirstValue("UserId"));
-                await _topicService.UpdateAsync(model, userId);
-                _logger.LogInformation("User with Id {UserId} changed topic with id {TopicId} successfully",
+                await _messageService.UpdateAsync(model, userId);
+                _logger.LogInformation("User with Id {UserId} changed message with id {MessageId} successfully",
                     userId, model.Id);
 
                 return NoContent();
@@ -168,12 +152,12 @@ namespace ForumProjectWebAPI.Controllers
         [HttpDelete("{id:int}")]
         [Authorize(Roles = RoleTypes.Admin + "," + RoleTypes.Moderator)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
-        public async Task<IActionResult> RemoveTopic(int id)
+        public async Task<IActionResult> RemoveMessage(int id)
         {
             try
             {
-                await _topicService.DeleteAsync(id);
-                _logger.LogInformation("Removed topic with id {Id} successfully", id);
+                await _messageService.DeleteAsync(id);
+                _logger.LogInformation("Removed message with id {Id} successfully", id);
                 return StatusCode(StatusCodes.Status204NoContent);
             }
             catch (Exception ex)

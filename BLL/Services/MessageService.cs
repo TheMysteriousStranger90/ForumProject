@@ -21,15 +21,14 @@ namespace BLL.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<MessageDTO> CreateAsync(MessageDTO model)
+        public async Task<MessageDTO> CreateAsync(MessageCreateDTO model)
         {
             if (model == null) throw new NotFoundException("Message can't be created");
 
             var message = _mapper.Map<Message>(model);
             await _unitOfWork.MessageRepository.CreateAsync(message);
             await _unitOfWork.SaveAsync();
-            model.Id = message.Id;
-            return model;
+            return _mapper.Map<MessageDTO>(message);
         }
 
         public async Task<IEnumerable<MessageDTO>> GetAllMessages()
@@ -71,7 +70,8 @@ namespace BLL.Services
 
         public async Task UpdateAsync(MessageDTO model, int id)
         {
-            var messageUpdate = await _unitOfWork.MessageRepository.GetByIdAsync(id);
+            if (id <= 0) throw new ForumProjectException("Value of id must be positive");
+            var messageUpdate = await _unitOfWork.MessageRepository.GetByIdAsync(model.Id);
 
             if (messageUpdate == null) throw new NotFoundException("Message not found");
 
