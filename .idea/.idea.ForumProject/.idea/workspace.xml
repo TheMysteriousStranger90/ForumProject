@@ -5,26 +5,43 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="start to add XML comments for swagger UI...">
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/36f842d9-4e97-4a06-94b2-53aad95da4f1.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/385768a7-3006-4891-87cd-ff648646ee8d.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/6fefde33-ce91-44da-ac7f-05b3943b57d0.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ForumProject/FileContentIndex/d82f7322-fef1-49b1-a517-41d6a4d901ac.vsidx" afterDir="false" />
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ClientApp/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/tsconfig.spec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/AuthenticationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/AuthenticationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/MessageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/MessageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/TopicController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/TopicController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Controllers/UsersController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/User/Desktop/ForumProject/BLL/Mapping/AutomapperProfile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,6 +63,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -107,14 +125,9 @@
       <workItem from="1665652397046" duration="3653000" />
       <workItem from="1665658593403" duration="4089000" />
       <workItem from="1665814455239" duration="14036000" />
-      <workItem from="1665979958156" duration="15567000" />
-    </task>
-    <task id="LOCAL-00011" summary="add CategoryRepository...">
-      <created>1664798631495</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1664798631495</updated>
+      <workItem from="1665979958156" duration="15775000" />
+      <workItem from="1666007798106" duration="665000" />
+      <workItem from="1666076156730" duration="613000" />
     </task>
     <task id="LOCAL-00012" summary="add other repositories and fix some problems...">
       <created>1664800788546</created>
@@ -452,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665997132985</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="...">
+      <created>1666007556827</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1666007556827</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,10 +515,10 @@
     <MESSAGE value="fix again..." />
     <MESSAGE value="final CategoryController..." />
     <MESSAGE value="add TopicController and fix some problems with update..." />
-    <MESSAGE value="..." />
     <MESSAGE value="add MessageController..." />
     <MESSAGE value="add new migration..." />
     <MESSAGE value="start to add XML comments for swagger UI..." />
-    <option name="LAST_COMMIT_MESSAGE" value="start to add XML comments for swagger UI..." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
