@@ -14,17 +14,14 @@ import { UserService } from 'src/app/shared/user/user.service';
 })
 export class RegistrationComponent implements OnInit {
 
-  formModel = this.fb.group({
+  formModelreg = this.fb.group({
     UserName: ['', Validators.required],
     Email: ['', Validators.email],
     FirstName: ['', Validators.required],
     LastName: ['', Validators.required],
-    Passwords: this.fb.group ({
-      Password: ['', [Validators.required, Validators.minLength(4)]],
-      ConfirmPassword: ['', Validators.required]
-    }, {validators: confirmPasswordValidator('password', 'confirmPassword')})
-
-  });
+    Password: [''],
+    ConfirmPassword: ['']
+  }, {validators: confirmPasswordValidator('Password', 'ConfirmPassword')});
 
   confirmPasswordStateMatcher = new ConfirmPasswordStateMatcher();
 
@@ -39,18 +36,18 @@ export class RegistrationComponent implements OnInit {
   }
 
   onSubmit() {
-    if (this.formModel.invalid) {
+    if (this.formModelreg.invalid) {
       return;
     }
 
     this.inProgress = true;
 
     var body = {
-      UserName: this.formModel.value.UserName,
-      FirstName: this.formModel.value.FirstName,
-      LastName: this.formModel.value.LastName,
-      Email: this.formModel.value.Email,
-      Password: this.formModel.value.Passwords
+      UserName: this.formModelreg.value.UserName,
+      FirstName: this.formModelreg.value.FirstName,
+      LastName: this.formModelreg.value.LastName,
+      Email: this.formModelreg.value.Email,
+      Password: this.formModelreg.value.Password
     };
 
 

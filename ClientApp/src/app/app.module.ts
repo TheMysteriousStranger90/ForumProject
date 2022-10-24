@@ -14,6 +14,21 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { UserService } from './shared/user/user.service';
 import { AuthInterceptor } from './helpers/auth/auth.interceptor';
 
+import {MatTableModule} from "@angular/material/table";
+import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatSortModule} from "@angular/material/sort";
+import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MatNativeDateModule} from "@angular/material/core";
+import {MatMenuModule} from "@angular/material/menu";
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatIconModule} from "@angular/material/icon";
+import {MatInputModule} from "@angular/material/input";
+import {MatButtonModule} from "@angular/material/button";
+import {MatSnackBarModule} from "@angular/material/snack-bar";
+import {MatCardModule} from "@angular/material/card";
+
 
 
 @NgModule({
@@ -32,6 +47,31 @@ import { AuthInterceptor } from './helpers/auth/auth.interceptor';
     ReactiveFormsModule.withConfig({warnOnNgModelWithFormControl: 'never'}),
     HttpClientModule,
     Ng2SearchPipeModule,
+
+
+    MatCardModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatButtonModule,
+    MatInputModule,
+    MatSnackBarModule,
+    MatMenuModule,
+    MatProgressSpinnerModule,
+    MatDialogModule,
+    FormsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+
+
+
+
+
+
+
+
     BrowserAnimationsModule,
     ToastrModule.forRoot({
       progressBar: true
