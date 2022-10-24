@@ -6,11 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/helpers/auth/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/helpers/auth/auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,14 +150,11 @@
       <workItem from="1666413676082" duration="1297000" />
       <workItem from="1666522983200" duration="7074000" />
       <workItem from="1666532035900" duration="11544000" />
-      <workItem from="1666600868860" duration="3721000" />
-    </task>
-    <task id="LOCAL-00014" summary="fix...">
-      <created>1664805765976</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1664805765976</updated>
+      <workItem from="1666600868860" duration="4152000" />
+      <workItem from="1666608211146" duration="4623000" />
+      <workItem from="1666614619631" duration="176000" />
+      <workItem from="1666621686714" duration="87000" />
+      <workItem from="1666622337188" duration="653000" />
     </task>
     <task id="LOCAL-00015" summary="add Migrations...">
       <created>1664805924026</created>
@@ -494,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666543719729</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="add reg...">
+      <created>1666604958031</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1666604958031</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +521,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add CategoryService" />
     <MESSAGE value="startup fix..." />
     <MESSAGE value="add TopicService" />
     <MESSAGE value="add MessageService..." />
@@ -541,6 +545,7 @@
     <MESSAGE value="..." />
     <MESSAGE value="start angular..." />
     <MESSAGE value="... angular..." />
-    <option name="LAST_COMMIT_MESSAGE" value="... angular..." />
+    <MESSAGE value="add reg..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add reg..." />
   </component>
 </project>

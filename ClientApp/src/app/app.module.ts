@@ -30,13 +30,19 @@ import {MatSnackBarModule} from "@angular/material/snack-bar";
 import {MatCardModule} from "@angular/material/card";
 
 
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegistrationComponent,
-    ForbiddenComponent
+    ForbiddenComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     FormsModule,
