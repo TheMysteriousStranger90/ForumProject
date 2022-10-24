@@ -141,5 +141,3 @@ S
 #ForumProjectWebAPI/appsettings.json,f\1\f1bf861a4627577cfef00066a2d8b1fed8b1ed8a
 K
 BLL/Injections/MigrateDb.cs,0\3\03f3a187036a8ba7c19dddb6b646c9b33bd96f14
-M
-ForumProjectWebAPI/Startup.cs,c\8\c846370cf1e6240e32bd79d5952e3b501e34dfcc

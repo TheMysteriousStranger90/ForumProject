@@ -5,13 +5,12 @@
     <projectFile profileName="ForumProjectWebAPI">ForumProjectWebAPI/ForumProjectWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
+    <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="...">
+      <change afterPath="$PROJECT_DIR$/ClientApp/proxy.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/helpers/auth/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/helpers/auth/auth.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ForumProjectWebAPI/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.ForumProjectWebAPI">
+  <component name="RunManager" selected="npm.build">
     <configuration name="ForumProjectWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ForumProjectWebAPI/ForumProjectWebAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -95,6 +94,16 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ClientApp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/ClientApp/package.json" />
       <command value="run" />
@@ -115,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.test" />
         <item itemvalue="Nx.ClientApp:build" />
       </list>
@@ -154,14 +164,7 @@
       <workItem from="1666608211146" duration="4623000" />
       <workItem from="1666614619631" duration="176000" />
       <workItem from="1666621686714" duration="87000" />
-      <workItem from="1666622337188" duration="653000" />
-    </task>
-    <task id="LOCAL-00015" summary="add Migrations...">
-      <created>1664805924026</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1664805924026</updated>
+      <workItem from="1666622337188" duration="2326000" />
     </task>
     <task id="LOCAL-00016" summary="...">
       <created>1664805947225</created>
@@ -499,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666604958031</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="...">
+      <created>1666623222165</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1666623222165</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,10 +552,10 @@
     <MESSAGE value="add MessageController..." />
     <MESSAGE value="add new migration..." />
     <MESSAGE value="start to add XML comments for swagger UI..." />
-    <MESSAGE value="..." />
     <MESSAGE value="start angular..." />
     <MESSAGE value="... angular..." />
     <MESSAGE value="add reg..." />
-    <option name="LAST_COMMIT_MESSAGE" value="add reg..." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
