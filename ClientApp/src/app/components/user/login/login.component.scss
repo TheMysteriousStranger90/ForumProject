@@ -1,0 +1,38 @@
+.mb-4 {
+  max-width: 300px;
+  margin: 0 auto;
+
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.form-group {
+  text-align: center;
+}
+
+button {
+  color: #FFF;
+  background-color: #5AF;
+}
+
+input.form-control,input.form-control:focus{
+  background-color: #5AF;
+  color: #FFF;
+  border: 2px solid #FFF;
+  margin-top: 4px;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 2px solid #AAA;
+}
+
+.ng-invalid:not(form)  {
+  border-left: 2px solid #AAA;
+}
+
+

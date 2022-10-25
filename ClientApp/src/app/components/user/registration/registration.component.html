@@ -1,47 +1,47 @@
-<form [formGroup]="formModelreg" (ngSubmit)="onSubmit()">
-  <div class="form-group required">
-    <label>UserName</label>
+<form [formGroup]="formModelreg" class="mb-4" autocomplete="off" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label>USERNAME</label>
     <input class="form-control" formControlName="UserName">
     <label class="text-danger" *ngIf="formModelreg.get('UserName')?.touched && formModelreg.controls['UserName'].hasError('required')">This
-      field is mandatory.</label>
+      field is empty.</label>
   </div>
-  <div class="form-group required">
-    <label>Email</label>
+  <div class="form-group">
+    <label>EMAIL</label>
     <input class="form-control" formControlName="Email">
     <label class="text-danger" *ngIf="formModelreg.get('Email')?.touched && formModelreg.controls['Email'].hasError('required')">Invalid
       email address.</label>
   </div>
-  <div class="form-group required">
-    <label>First name</label>
+  <div class="form-group">
+    <label>FIRST NAME</label>
     <input class="form-control" formControlName="FirstName">
     <label class="text-danger" *ngIf="formModelreg.get('FirstName')?.touched && formModelreg.controls['FirstName'].hasError('required')">This
-      field is mandatory.</label>
+      field is empty.</label>
   </div>
-  <div class="form-group required">
-    <label>LastName</label>
+  <div class="form-group">
+    <label>LAST NAME</label>
     <input class="form-control" formControlName="LastName">
     <label class="text-danger" *ngIf="formModelreg.get('LastName')?.touched && formModelreg.controls['LastName'].hasError('required')">This
-      field is mandatory.</label>
+      field is empty.</label>
   </div>
   <div formGroupName="Passwords">
-    <div class="form-group required">
-      <label>Password</label>
+    <div class="form-group">
+      <label>PASSWORD</label>
       <input type="password" class="form-control" formControlName="Password">
       <label class="text-danger" *ngIf="formModelreg.get('Password')?.touched && formModelreg.controls['Password'].hasError('required')">This
-        field is mandatory.</label>
+        field is empty.</label>
     </div>
     <div class="form-group required">
-      <label>Confirm Password</label>
+      <label>CONFIRM PASSWORD</label>
       <input type="password" class="form-control" formControlName="ConfirmPassword">
       <label class="text-danger" *ngIf="formModelreg.get('ConfirmPassword')?.touched && formModelreg.controls['ConfirmPassword'].hasError('required')">This
-        field is mandatory.</label>
+        field is empty.</label>
       <label class="text-danger" *ngIf="formModelreg.get('ConfirmPassword')!.hasError('passwordMismatch')">Confirm
         Password does not match.</label>
     </div>
   </div>
   <div class="form-row">
-    <div class="form-group col-md-8 offset-md-2">
-      <button type="submit" class="btn btn-lg btn-block" [disabled]="!formModelreg.valid">Sign Up</button>
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary btn-block mb-2" [disabled]="formModelreg.valid">Sign Up</button>
     </div>
   </div>
 </form>
