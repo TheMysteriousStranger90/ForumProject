@@ -6,14 +6,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="207dd708-f47e-4a05-b769-62a65fc81e66" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ForumProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/proxy.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/help/forbidden/forbidden.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/help/forbidden/forbidden.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/help/forbidden/forbidden.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/help/forbidden/forbidden.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/components/user/registration/registration.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/helpers/auth/auth.guard.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/helpers/auth/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/helpers/auth/auth.interceptor.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/helpers/auth/auth.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/confirm-password-state-matcher.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/confirm-password-validator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/user/user-role.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/user/user-role.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/user/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/user/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/about.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/assets/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/tsconfig.spec.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +81,6 @@
         <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ClientApp/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,7 +117,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected=".NET Launch Settings Profile.ForumProjectWebAPI">
     <configuration name="ForumProjectWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ForumProjectWebAPI/ForumProjectWebAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -168,14 +219,8 @@
       <workItem from="1666614619631" duration="176000" />
       <workItem from="1666621686714" duration="87000" />
       <workItem from="1666622337188" duration="2699000" />
-      <workItem from="1666700658856" duration="8195000" />
-    </task>
-    <task id="LOCAL-00017" summary="...">
-      <created>1664807251707</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1664807251707</updated>
+      <workItem from="1666700658856" duration="10198000" />
+      <workItem from="1666768359242" duration="11237000" />
     </task>
     <task id="LOCAL-00018" summary="add SeedData and new migration...">
       <created>1664863457844</created>
@@ -513,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666624862277</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="css for log and reg...">
+      <created>1666708945713</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1666708945713</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +587,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="startup fix..." />
     <MESSAGE value="add TopicService" />
     <MESSAGE value="add MessageService..." />
     <MESSAGE value="delete ICrud..." />
@@ -560,6 +611,7 @@
     <MESSAGE value="... angular..." />
     <MESSAGE value="add reg..." />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="css for log and reg..." />
+    <option name="LAST_COMMIT_MESSAGE" value="css for log and reg..." />
   </component>
 </project>

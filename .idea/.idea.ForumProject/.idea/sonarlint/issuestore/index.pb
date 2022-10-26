@@ -41,8 +41,6 @@ N
 BLL/Interfaces/IUserService.cs,3\d\3d4a76cf4c7f82ba65bb6cff63493364c56964c0
 K
 BLL/Services/UserService.cs,3\1\319ba5d6cf5f916390768b498a3a220c590d3989
-F
-BLL/DTO/CategoryDTO.cs,c\b\cb2751b85abc929920e5cbdde0f15b929deda110
 U
 %DAL/Interfaces/ICategoryRepository.cs,6\0\604edf14abe607ad1b1115303b5426f1e84e6def
 R
@@ -55,8 +53,6 @@ O
 BLL/Interfaces/ITopicService.cs,9\f\9f37c047a37e82283f8ffbd5f1878f1a6db7aa18
 O
 BLL/Services/CategoryService.cs,f\a\fa8e7c1167d93923f827bdcecb2a9cce45dd3dff
-L
-BLL/DTO/CategoryCreateDTO.cs,e\a\eac8c870c68437871b39bf65209b5015bc8699ae
 I
 BLL/DTO/TopicCreateDTO.cs,e\1\e1f4ec75b088f4463636ae8a1ba02aa0e504bd79
 E
@@ -101,8 +97,6 @@ a
 1ForumProjectWebAPI/Controllers/TopicController.cs,4\0\40ef8bc6215743898e3d6be1e0c123c600752d04
 c
 3ForumProjectWebAPI/Controllers/MessageController.cs,9\7\978d1dcb1d4983ebb7dfa35afd2ce354f23c2e5f
-j
-:ForumProjectWebAPI/Controllers/AuthenticationController.cs,3\d\3d58ad1ad037bafc90083da21339b9d14b40ec33
 C
 BLL/DTO/LoginDTO.cs,8\3\8305f39d8b5c01194c4203b3f6b18bb47a721f4c
 H
@@ -127,17 +121,11 @@ L
 BLL/Injections/AuthResult.cs,f\8\f87031591596e9be9497b1757514107e690db424
 K
 BLL/Injections/JwtConfig.cs,0\d\0d2810e66c2a7ac36b1c8f613713bef618c459c9
-?
-DAL/SeedData.cs,1\6\16d570551ddcc76f1e1087bf914325a7fd8b0512
-B
-BLL/DTO/UserDTO.cs,3\1\31984b3a98d92bb2809649db8951b9281bcb3d42
 F
 BLL/DTO/UserRoleDTO.cs,3\6\367baca289bb1bf23a455d8c892925ab24db840e
 _
 /ForumProjectWebAPI/appsettings.Development.json,b\b\bb5ca304f69a60b6c7a9220a0ca9fa958fcfe7df
 M
 ForumProjectWebAPI/Program.cs,7\6\7674ec22eff3844443888a5085b0f98dac0bc8c1
-S
-#ForumProjectWebAPI/appsettings.json,f\1\f1bf861a4627577cfef00066a2d8b1fed8b1ed8a
 K
 BLL/Injections/MigrateDb.cs,0\3\03f3a187036a8ba7c19dddb6b646c9b33bd96f14
